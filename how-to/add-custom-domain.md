@@ -4,7 +4,7 @@
 Use [instant domain search](https://instantdomainsearch.com) to find out whether your desired domain names are available.
 
 ## Buy yourself a domain name
-I use [Gandi](https://www.gandi.net/), but you can use whatever service you like to purchase a domain name. There isn't anything complicated to it. You select what you want (probably just the `.com` version), pay, and bam, you own that domain name.
+One option might be [Google Domains](https://domains.google), but you can use whatever service you like to purchase a domain name. There isn't anything complicated to it. You select what you want (probably just the `.com` version), pay, and bam, you own that domain name.
 
 ## Deploy a working heroku app
 If you need help with this, follow the instructions we've provided before for [rails apps](https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/deploy-rails-to-heroku.md) or [MEAN stack apps](https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/heroku-mean-stack-deploy.md).
