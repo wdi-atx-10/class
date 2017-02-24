@@ -13,7 +13,7 @@ We ask that you take the following steps when dealing with technical questions..
 
 If your question is **non-technical** -- you're feeling overwhelmed, or you have questions about a homework or project prompt -- please reach out directly to an instructor or Leah as soon as possible! We are here for you!
 
-**After 6pm**, aside from [office hours](office-hours.md), instructors may not be able to respond to technical questions until the following morning.
+**After 5:30pm**, aside from [office hours](office-hours.md), instructors may not be able to respond to technical questions until the following morning.
 
 ## During Project Weeks
 
@@ -44,7 +44,7 @@ When submitting an issue, please provide some context as to what the problem is.
 - What you are trying to do (in terms of code)
 - Detailed description of the bug or error
 - Relevant code/files/errors (and screenshots if applicable)
-- Gems and/or other technologies being used (if applicable)
+- Libraries and/or other technologies being used (if applicable)
 
 #### Approaches Tried
 
