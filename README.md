@@ -24,7 +24,7 @@
 - Outcomes
 
 
-## Tips
+## Slack Tips
 
 - <code>&grave;hello&grave;</code>: Backtics (the top-left of the keyboard on a Mac) makes text show up in a monospace font. Great for code.
 - Code blocks are made with three backtics:
