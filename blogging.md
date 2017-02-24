@@ -1,13 +1,12 @@
 # Blogging
 
-Throughout the course, you'll be expected to write at least four blog posts. 
+Throughout the course, you'll be expected to write at least three blog posts. 
 
 Tentative blog post due dates are: 
 
-- 12/1/2016
-- 12/15/2016
-- 1/12/2017
-- 2/2/2017
+- 3/30/2017 (Week 4)
+- 4/20/2017 (Week 7)
+- 5/11/2017 (Week 10)
 
 ![Cat Computer](https://media.giphy.com/media/AVu4qVBN6PFgk/giphy.gif)
 
