@@ -64,4 +64,4 @@ js1989: ~/wdi/homeworkaroo (johnsmith_solution) $ git push origin homework_branc
 
 ### If you have errors...
 
-...please refer to [this readme](https://github.com/ga-wdi-lessons/git-review) for instructions on common Git errors.
+...please refer to [this readme](http://ga-wdi-lessons.github.io/git-review/) for instructions on common Git errors.
