@@ -2,7 +2,7 @@
 
 ## Policy
 
-You will take your own attendance through Garnet while on the `WWGuest` wifi network. Please check [the graduation requirements for arriving on-time](graduation-requirements.md#attendance)!
+You will take your own attendance through Garnet while on the `WeWork` or `WWGuest` wifi network. Please check [the graduation requirements for arriving on-time](graduation-requirements.md#attendance)!
 
 If today begins at 9:00AM, then any attendance taken at 9:01 will be considered "tardy". Attendance cannot be taken three hours after the start time. That is: if you try to take attendance at 12:01, you will be considered "absent".
 
