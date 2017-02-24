@@ -33,7 +33,7 @@ SCHEDULE TEMPLATE
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise 
 **10:00am <br> 1:00pm** | [Icebreakers](./w01/d01/morning) | [Git](./w01/d02/morning) | [HTML Forms](./w01/d03/morning) | [Flexbox and the Box Model](./w01/d04/morning) | [Advanced CSS](./w01/d05)
 **2:00pm <br> 5:00pm** | [Command Line Interface and Atom IDE](./w01/d01/afternoon) |  [Git(Hub)](./w01/d02/afternoon) | [CSS Basics](./w01/d03/afternoon) | [CSS Frameworks](./w01/d04/afternoon) | [Lab](./w01/d05/afternoon)  
-**Training** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
+**Training** | [Repo Link](LINK) | [Repo Link](LINK)  | [Repo Link](LINK) | [Repo Link](LINK) | [Repo Link](LINK)
 
 ## Administrative
 
