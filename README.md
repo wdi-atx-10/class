@@ -18,11 +18,9 @@
 - Important Dates
   * **3/13 - 3/17** SXSW 
 
-## Curriculum
+## Outcomes
 
-- [Installfest](https://github.com/GA-WDI/installfest)
-- Outcomes
-
+- [Outcomes Programming Syllabus](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit)
 
 ## Slack Tips
 
