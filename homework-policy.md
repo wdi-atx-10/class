@@ -1,4 +1,4 @@
-# Homework
+# Homework Policy
 
 - Homework will take more time for some, and less time for others. It is up to you how you want to partition your time for a given exercise. You will generally be assigned homework every day.
 
