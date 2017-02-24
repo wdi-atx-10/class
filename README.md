@@ -12,7 +12,7 @@ SCHEDULE TEMPLATE
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise 
 **10:00am <br> 1:00pm** | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
 **2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
-**Evening** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
+**Training** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
 --->
 
 <!---- 
@@ -23,7 +23,7 @@ SCHEDULE TEMPLATE
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise 
 **10:00am <br> 1:00pm** | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
 **2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
-**Evening** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
+**Training** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
 --->
 
 <!---- 
@@ -34,7 +34,7 @@ SCHEDULE TEMPLATE
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise 
 **10:00am <br> 1:00pm** | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
 **2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
-**Evening** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
+**Training** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
 --->
 
 #### Week 1 - GIT, HTML, CSS
@@ -44,7 +44,7 @@ SCHEDULE TEMPLATE
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise 
 **10:00am <br> 1:00pm** | [Icebreakers](Link) | [Git](Link) | [HTML Forms](Link) | [Flexbox and the Box Model](Link) | [Advanced CSS](Link)
 **2:00pm <br> 5:00pm** | [Command Line Interface and Atom IDE](Link) |  [Git(Hub)](Link) | [CSS Basics](Link) | [CSS Frameworks](Link) | [Lab](Link)  
-**Evening** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
+**Training** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
 
 ## Administrative
 
