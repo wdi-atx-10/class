@@ -3,9 +3,9 @@
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | [Morning Exercise][1-1A]| [Lesson (NAME)][1-2A]  | [Lesson (CF)][1-3A] | [Lesson (NAME)][1-4A] | [Lesson (NAME)][1-5A]
-**10:45am <br> 12:15pm** | [Lesson (NAME)][1-1B] | [Lesson (Name)][1-2B] | [Lesson (NAME)][1-3B] | [Lesson (Name)][1-4B] | [Formative Assessment & Review (NAME)][1-5B]
-**1:15pm <br> 2:45pm** | [Lesson (NAME)][1-1C] |  [Lesson (NAME)][1-2C] | [Lesson (NAME)][1-3C] | [Lesson (NAME)][1-4C] | [Lesson (NAME)][1-5C]
-**3:00pm <br> 4:30pm** | [Lesson (NAME)][1-1D] | [Lesson (NAME)][1-2D] | [Lesson (NAME)][1-3D] | [Lesson (NAME)][1-4D] | [Lesson (NAME)][1-5D]   
+**10:00am <br> 1:00pm** | [Lesson (NAME)][1-1B] | [Lesson (Name)][1-2B] | [Lesson (NAME)][1-3B] | [Lesson (Name)][1-4B] | [Formative Assessment & Review (NAME)][1-5B]
+**2:00pm <br> 5:00pm** | [Lesson (NAME)][1-1C] |  [Lesson (NAME)][1-2C] | [Lesson (NAME)][1-3C] | [Lesson (NAME)][1-4C] | [Lesson (NAME)][1-5C] 
+**5:00pm <br> 5:30pm** | [Lesson (NAME)][1-1D] | [Lesson (NAME)][1-2D] | [Lesson (NAME)][1-3D] | [Lesson (NAME)][1-4D] | [Lesson (NAME)][1-5D]   
 **Evening** | [Training][1-1E] | [Training][1-2E]  | [Training][1-3E] | [Training][1-4E] | [Training][1-5E]
 
 
