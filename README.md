@@ -1,5 +1,51 @@
 # ![](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67) WDI 10
 
+## Schedule 
+
+<!---- 
+SCHEDULE TEMPLATE 
+
+#### Week N - TITLE
+
+ Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
+----- | ----- | ------ | ---- | ----- | ---- |
+**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise 
+**10:00am <br> 1:00pm** | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
+**2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
+**Evening** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
+--->
+
+<!---- 
+#### Week 3 - JavaScript
+
+ Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
+----- | ----- | ------ | ---- | ----- | ---- |
+**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise 
+**10:00am <br> 1:00pm** | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
+**2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
+**Evening** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
+--->
+
+<!---- 
+#### Week 2 - JavaScript Fundamentals
+
+ Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
+----- | ----- | ------ | ---- | ----- | ---- |
+**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise 
+**10:00am <br> 1:00pm** | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
+**2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
+**Evening** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
+--->
+
+#### Week 1 - GIT, HTML, CSS
+
+ Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
+----- | ----- | ------ | ---- | ----- | ---- |
+**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise 
+**10:00am <br> 1:00pm** | [Icebreakers](Link) | [Git](Link) | [HTML Forms](Link) | [Flexbox and the Box Model](Link) | [Advanced CSS](Link)
+**2:00pm <br> 5:00pm** | [Command Line Interface and Atom IDE](Link) |  [Git(Hub)](Link) | [CSS Basics](Link) | [CSS Frameworks](Link) | [Lab](Link)  
+**Evening** | [Training](LINK) | [Training](LINK)  | [Training](LINK) | [Training](LINK) | [Training](LINK)
+
 ## Administrative
 
 - [Graduation Requirements](graduation-requirements.md)
