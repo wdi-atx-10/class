@@ -1,6 +1,7 @@
 ## Getting set up on Heroku with Node + Mongoose
 
 ### Before you do anything
+
 1) Stop and commit. Make sure your app is under version control with `git`.  If you're not sure whether your project is under version control yet, you definitely haven't been commiting often enough! But run `git status` to check if your project directory is a repo and `git init` to make it into one if necessary. __Stop and commit your changes.__
 
 2) Sign up for an account with heroku: https://www.heroku.com/
