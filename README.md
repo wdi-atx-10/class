@@ -26,11 +26,11 @@
 
 ## Slack Tips
 
-- <code>&grave;hello&grave;</code>: Backtics (the top-left of the keyboard on a Mac) makes text show up in a monospace font. Great for code.
-- Code blocks are made with three backtics:
+- <code>&grave;hello&grave;</code>: Backticks (the top-left of the keyboard on a Mac) makes text show up in a monospace font. Great for code.
+- Code blocks are made with three backticks:
   <pre>
   &grave;&grave;&grave;
-  The backtics MUST be on a line by themselves!
+  The backticks MUST be on a line by themselves!
   &grave;&grave;&grave;
   </pre>
 - You can specify the language directly after the backticks to have colors show up on github
