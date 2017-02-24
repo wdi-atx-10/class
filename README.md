@@ -39,5 +39,5 @@
     var words = ["hello", "what", "is", "up", "dude"];
   &grave;&grave;&grave;
   </pre>
-- These same backtick tricks also work on **Github** and **Slack**.
+- These same backtick tricks also work on **GitHub** and **Slack**.
 - `@here`: Sends a message to everyone currently online in a Slack room
