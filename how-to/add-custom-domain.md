@@ -7,7 +7,7 @@ Use [instant domain search](https://instantdomainsearch.com) to find out whether
 One option might be [Google Domains](https://domains.google), but you can use whatever service you like to purchase a domain name. There isn't anything complicated to it. You select what you want (probably just the `.com` version), pay, and bam, you own that domain name.
 
 ## Deploy a working heroku app
-If you need help with this, follow the instructions we've provided before for [rails apps](https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/deploy-rails-to-heroku.md) or [MEAN stack apps](https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/heroku-mean-stack-deploy.md).
+If you need help with this, follow the instructions we've provided before for [deploying apps to Heroku](./deploy-to-heroku.md).
 
 ## Sign up for a [CloudFlare](https://www.cloudflare.com/) account and add a site
 CloudFlare is a service that stands as a layer between the browser and the server that serves up your site. It provides some security and protection and can make your app load faster for your users. CloudFlare also provides data about the performance of your site and helps you avoid crashes by caching working copies of your site. We're going to use it to make sure that our domain names are all squared away.
