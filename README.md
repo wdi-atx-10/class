@@ -16,7 +16,7 @@
   - For informal communication that doesn't need to be private, use the #wdi-atx-10 room
   - If you need to talk to the instructors privately, use the Slack rooms we're creating for you with each of the instructors in it. Please don't Slack or email the instructors individually as this creates information asymmetry.
 - Important Dates
-  * 3/13 - 3/17 SXSW 
+  * **3/13 - 3/17** SXSW 
 
 ## Curriculum
 
