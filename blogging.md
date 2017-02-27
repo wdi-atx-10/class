@@ -39,6 +39,7 @@ There is **so much cool stuff** to explore and blog about. Be hungry for knowled
 
 ### Example blog posts
 
+* [How to make your time at a Coding Bootcamp work for you after you’ve left — An honest, yet optimistic guide.](https://medium.com/@llemonggang/how-to-make-your-time-at-a-coding-bootcamp-work-for-you-after-youve-left-an-honest-yet-de215f55f041#.rnj1fz1hx)
 * [Code is math, and you can too. ](http://drewfrom.space/blog/code-is-math/)
 * [Ruby’s Modules and Mixins](http://jonwtow.tumblr.com/post/117461435991/rubys-modules-and-mixins)
 * [JavaScript’s .map & .filter: simple uses](https://medium.com/@munish/javascript-s-map-filter-29148846ac42#.iw1xzhicb)
