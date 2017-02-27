@@ -42,13 +42,6 @@ Use this to launch your Terminal, PostgreSQL, or any other application installed
 
 **<a href="http://d2wy8f7a9ursnm.cloudfront.net/atom-editor-cheat-sheet.pdf"><img src="atom-shortcuts.png"></a>**
 
-### ShiftIt Basics (window management)
-
-- **Control  Option  Command** + **←** or **→**  - Snaps the active widow to the right or left of your screen.  Tap **←** or **→** again to reduce the % of the screen occupied by the window
-- **Control  Option  Command** + **↑** or **↓**  - Same as above, but snaps to the top or bottom
-- **Control  Option  Command  M**  -  Brings the active window to fullscreen (windowed)
-
-
 #### Misc.
 
 - Try typing the first few letters of a file or directory in your terminal and then press **Tab**.  Terminal will autocomplete the file/dir name
