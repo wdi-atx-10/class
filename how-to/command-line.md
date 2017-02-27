@@ -199,7 +199,7 @@ You can append the output to the end of an existing file this way:
 ```
 
 This will add the output as 10 new lines at the end of `allnames.txt.  `
-
+<!---
 ##Sending the Output to another command as an input
 You can send the output to another command using the pipe symbol (|). The grep command searches through some text for matches (more on this later), so you could do this to get the first 10 lines of a file, and then search for "Steve" within those 10 lines:
 
@@ -415,3 +415,4 @@ Noah Veltman
 Web: http://noahveltman.com
 Twitter: @veltman
 Email: noah@noahveltman.com
+--->
