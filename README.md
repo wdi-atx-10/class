@@ -9,7 +9,7 @@ SCHEDULE TEMPLATE
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise 
+**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Outcomes | Morning Exercise | Morning Exercise 
 **10:00am <br> 1:00pm** | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
 **2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
 **Training** | [Repo Link](LINK) | [Repo Link](LINK)  | [Repo Link](LINK) | [Repo Link](LINK) | [Repo Link](LINK)
@@ -20,7 +20,7 @@ SCHEDULE TEMPLATE
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise 
+**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Outcomes | Morning Exercise | Morning Exercise 
 **10:00am <br> 1:00pm** | [JS Basics](Link) | [JS Functions](Link) | [jQuery](Link) | [DOM Manipulation](Link) | [Unit 1 Project](Link)
 **2:00pm <br> 5:00pm** | [JS Flow Control](Link) |  [JS Objects](Link) | [Events](Link) | [Lab (DOM Manipulation)](Link) | [Unit 1 Project](Link)  
 **Training** | [Repo Link](LINK) | [Repo Link](LINK)  | [Repo Link](LINK) | [Repo Link](LINK) | [Repo Link](LINK)
@@ -30,7 +30,7 @@ SCHEDULE TEMPLATE
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | Introductions| Morning Exercise | Morning Exercise | Morning Exercise | Morning Exercise 
+**9:00am <br> 9:45am** | Introductions| Morning Exercise | Outcomes | Morning Exercise | Morning Exercise 
 **10:00am <br> 1:00pm** | [Installfest](https://github.com/GA-WDI/installfest) | [Git](./w01/d02/morning) | [HTML Forms](./w01/d03/morning) | [Flexbox and the Box Model](./w01/d04/morning) | [Advanced CSS](./w01/d05)
 **2:00pm <br> 5:00pm** | [Command Line Interface and Atom IDE](./w01/d01/afternoon) |  [Git(Hub)](./w01/d02/afternoon) | [CSS Basics](./w01/d03/afternoon) | [CSS Frameworks](./w01/d04/afternoon) | [Lab](./w01/d05/afternoon)  
 **Training** | [CLI Golf](https://github.com/wdi-atx-10/cli_golf) |   |  |  | 
