@@ -1,6 +1,6 @@
 # Squads
 
-At the start of each unit in the course, we'll randomly match you with a few other students into a group. Think of your squad as your primary support group for that unit. 
+At the start of each unit in the course, we'll randomly match you and a couple of other students into a squad. Think of your squad as your primary support group for the current unit. 
 
 Take advantage of your squad to: 
 
