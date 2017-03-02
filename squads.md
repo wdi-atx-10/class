@@ -1,6 +1,16 @@
-## Squads
+# Squads
 
-### Unit 1
+At the start of each unit in the course, we'll randomly match you with a few other students into a group. Your squad is your primary support group for that unit. 
+
+Take advantage of your squad to: 
+
+* Ask questions about homework
+* Ask for feedback on homework or projects 
+* Participate in pair programming/group activities during the unit 
+
+Your squad is **not** the same as the group you'll have for your group project.
+
+## Unit 1
 
 **Squad 1**
 
