@@ -1,0 +1,22 @@
+body {
+	padding: 2rem;
+}
+
+p {
+	margin: 0;
+}
+
+/* What does this selector do? Try looking it up! */
+div[class^="col-"] {
+	border: 1px solid red;
+	background-color: #FFDD01;
+	opacity: 0.8;
+	padding: 5px;
+}
+
+
+
+.carousel {
+	max-width: 1000px;
+	margin: 50px auto;
+}
