@@ -8,7 +8,7 @@ Take advantage of your squad to:
 * Ask for feedback on homework or projects 
 * Participate in pair programming/group activities during the unit 
 
-Your squad is **not** the same as the group you'll have for your group project.
+Your squad is **not** the same as the group you'll have for the unit group project.
 
 ## Unit 1
 
