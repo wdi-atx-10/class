@@ -1,0 +1,72 @@
+html {
+  background:purple;
+  font-family: sans-serif;
+}
+
+body {
+  margin:0;
+}
+
+header {
+  background: #fff;
+  /* One shorthand of padding*/
+  /*padding: 0px 10px;*/
+  padding:10px;
+}
+
+main {
+  margin-top:50px;
+  padding:0 25px;
+}
+
+nav.menu {
+  float:right;
+}
+
+nav.menu .menu-inner li{
+  display:inline-block;
+}
+
+.logo {
+  float: left;
+}
+
+.clearfix {
+  /* Clearfix */
+  overflow: auto;
+  zoom:1;
+}
+
+.columns {
+  display:flex;
+  color:white;
+}
+
+.columns .column-main {
+  flex: 2;
+}
+
+.columns .column-side {
+  flex:1;
+}
+
+.column {
+  padding:10px;
+}
+
+.logo img {
+  max-width:50px;
+}
+
+.article-head img{
+  max-width:100%;
+}
+
+.article {
+  background:white;
+}
+
+.article-body {
+  color: black;
+  padding:10px;
+}
