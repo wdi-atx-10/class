@@ -1,0 +1,12 @@
+h1 {
+  color: blue;
+}
+
+p {
+  font-size: 110%;
+  font-family: arial, verdana, helvetica, sans-serif;
+}
+
+p.second {
+  font-weight: bold;
+}

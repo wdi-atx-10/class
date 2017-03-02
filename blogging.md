@@ -37,6 +37,10 @@ There is **so much cool stuff** to explore and blog about. Be hungry for knowled
 
 [Medium.com](https://medium.com/) is a great platform for your blog to live! If you already keep a blog, feel free to use that as an alternative.
 
+###Youtube Video
+* [Is It OK For New Programmers To Blog About What They Are Learning?](https://www.youtube.com/watch?v=d7JaQnsmALA)
+
+
 ### Example blog posts
 
 * [How to make your time at a Coding Bootcamp work for you after you’ve left — An honest, yet optimistic guide.](https://medium.com/@llemonggang/how-to-make-your-time-at-a-coding-bootcamp-work-for-you-after-youve-left-an-honest-yet-de215f55f041#.rnj1fz1hx)
