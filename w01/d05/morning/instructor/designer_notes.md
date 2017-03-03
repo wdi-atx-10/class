@@ -14,6 +14,10 @@ Fjalla One
 Open Sans  
 `<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Fjalla+One|Open+Sans:400,600,700' rel='stylesheet' type='text/css'>`
 
+font-family: 'Roboto Slab', serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
 #### Links
 To be provided by project manager at a later date
 
@@ -23,4 +27,3 @@ Assets have been provided by the designer
 #### Other Notes:
 - responsive, one page
 - hover effects on buttons and social media links needed
-
