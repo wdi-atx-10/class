@@ -1,0 +1,103 @@
+body{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header{
+  background-color: #00a84f;
+}
+
+section{
+  padding:45px 0;
+}
+
+h1{
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 65px;
+  font-weight: 400;
+}
+
+h2{
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+}
+
+h3{
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  color: #00a84f;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+h4{
+  font-weight:bold;
+}
+
+h5{
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 30px;
+  margin-top: 0;
+}
+.hero{
+  background: url('images/austin.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.tidbits{
+  background-color: #e8e8e7;
+}
+.bio{
+  width: 65%;
+  margin: 40px auto;
+}
+.bio img, .text{
+  display: inline-block;
+}
+.bio img{
+  width: 24%;
+}
+.text{
+  width: 74%;
+  text-align:left;
+  padding-left: 20px;
+  vertical-align: top;
+}
+
+.orange-button{
+  background: #f37735;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  width: auto;
+  margin: 0 auto;
+  border: none;
+}
+
+.orange-button:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #bd5a25;
+}
+
+.tidbits img{
+  width: 100%;
+}
+
+form{
+  margin: 0 auto;
+  width: 50%;
+}
+form input, textarea{
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+}
