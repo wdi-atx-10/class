@@ -21,7 +21,7 @@ SCHEDULE TEMPLATE
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | Outcomes | Morning Exercise | Morning Exercise 
-**10:00am <br> 1:00pm** | [JS Basics](Link) | [JS Functions](Link) | [jQuery](Link) | [DOM Manipulation](Link) | [Unit 1 Project](Link)
+**10:00am <br> 1:00pm** | [JS Basics](Link) | [JS Functions as Objects](Link) | [jQuery](Link) | [DOM Manipulation](Link) | [Unit 1 Project](Link)
 **2:00pm <br> 5:00pm** | [JS Flow Control](Link) |  [JS Objects](Link) | [Events](Link) | [Lab (DOM Manipulation)](Link) | [Unit 1 Project](Link)  
 **Training** | [Repo Link](LINK) | [Repo Link](LINK)  | [Repo Link](LINK) | [Repo Link](LINK) | [Repo Link](LINK)
 
