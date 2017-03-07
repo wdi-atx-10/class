@@ -12,7 +12,7 @@ SCHEDULE TEMPLATE
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Morning Exercise 
 **10:00am <br> 1:00pm** | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
 **2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
-**Training** | [Repo Link](LINK) | [Repo Link](LINK)  | [Repo Link](LINK) | [Repo Link](LINK) | [Repo Link](LINK)
+**Training** | [Repo Link](LINK) | [Repo Link](LINK)  | [Repo Link](LINK) | [Repo Link](LINK) | -
 --->
 
 
@@ -23,7 +23,7 @@ SCHEDULE TEMPLATE
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Review  
 **10:00am <br> 1:00pm** | [JS Foundation](./w02/d01/morning) | [JS Functions](./w02/d02/morning) | [jQuery](./w02/d03/morning) | [DOM Manipulation](./w02/d04/morning) | [Unit 1 Project](./w02/d05/morning)
 **2:00pm <br> 5:00pm** | [JS Flow Control](./w02/d01/afternoon) |  [JS Objects](./w02/d02/afternoon) | [Events](./w02/d03/afternoon) | [Lab (DOM Manipulation)](./w02/d04/afternoon) | Unit 1 Project  
-**Training** | [JS Adventure](https://github.com/wdi-atx-10/js_adventure) | |  | | 
+**Training** | [JS Adventure](https://github.com/wdi-atx-10/js_adventure) | |  | | -
 
 
 #### Week 1 - Git, HTML, CSS
@@ -33,7 +33,7 @@ SCHEDULE TEMPLATE
 **9:00am <br> 9:45am** | Introductions| Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Review 
 **10:00am <br> 1:00pm** | [Installfest](https://github.com/GA-WDI/installfest) | [Git](./w01/d02/morning) | [HTML Forms](./w01/d03/morning) | [Flexbox and the Box Model](./w01/d04/morning) | [Advanced CSS](./w01/d05/morning)
 **2:00pm <br> 5:00pm** | [Command Line Interface and Atom IDE](./w01/d01/afternoon) |  [Git(Hub)](./w01/d02/afternoon) | [CSS Foundation](./w01/d03/afternoon) | [CSS Frameworks](./w01/d04/afternoon) | [Lab (Advanced CSS)](./w01/d05/afternoon/front-end-lab)
-**Training** | [CLI Golf](https://github.com/wdi-atx-10/cli_golf) | [Git/GitHub Reading](https://github.com/wdi-atx-10/github-practice-reading) | [Flexbox Froggy](https://github.com/wdi-atx-10/flexbox-froggy) | [Flexbox News](https://github.com/wdi-atx-10/Flexbox-News) | 
+**Training** | [CLI Golf](https://github.com/wdi-atx-10/cli_golf) | [Git/GitHub Reading](https://github.com/wdi-atx-10/github-practice-reading) | [Flexbox Froggy](https://github.com/wdi-atx-10/flexbox-froggy) | [Flexbox News](https://github.com/wdi-atx-10/Flexbox-News) | -
 
 ## Administrative
 
