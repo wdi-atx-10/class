@@ -1,15 +1,15 @@
-# Javascript Calculator 
+# JavaScript Calculator 
 
 **20 mins**
 
-Your task is to create a Javascript object that represents a calculator. It should have methods that provide it with the following functionality...
+Your task is to create a JavaScript object that represents a calculator. It should have methods that provide it with the following functionality...
 
 * Addition
 * Subtraction
 * Multiplication
 * Division
 
-You should be able to run these methods like so from your browser's Javascript console...
+You should be able to run these methods like so from your browser's JavaScript console...
 ```js
 calculator.add(1,2);
 // => 3
