@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  margin-top: 5%;
+}
+
+#filtered-input {
+  width: 90%;
+  font-size: 175%;
+  margin: 2% 5% 15% 7%;
+  padding: 8px;
+}

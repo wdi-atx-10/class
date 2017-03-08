@@ -1,0 +1,19 @@
+body {
+  margin: 10% 2%;
+}
+form, h2 {
+  margin: 30px;
+}
+input {
+  width: 25%;
+  padding: 8px;
+  font-size: 120%;
+}
+h2 {
+  font: bold 170%/135% Helvetica, Arial, sans-serif;
+  color: #333;
+}
+#btn-show {
+  background-color: green;
+  color: #fff;
+}
