@@ -1,13 +1,3 @@
----
-title: Fellowship of the Ring DOM Manipulation
-type: lab
-duration: "1:25"
-creator:
-    name: Phil Lamplugh
-    city: NYC
-competencies: Front-end Intro
----
-
 # Fellowship of the Ring DOM Manipulation
 
 ## Introduction
