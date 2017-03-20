@@ -18,7 +18,7 @@ SCHEDULE TEMPLATE
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | Project | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Morning Exercise 
+**9:00am <br> 9:45am** | Project | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Recap 
 **10:00am <br> 1:00pm** | [Unit 1 Project](Link) | [Project Presentations](https://github.com/wdi-atx-10/class/tree/master/w03/d02/morning) | [AJAX](Link) | [AJAX Walkthrough](Link) | [Lab](Link)
 **2:00pm <br> 5:00pm** | [Unit 1 Project](Link) |  [Object Oriented Programming](https://github.com/wdi-atx-10/class/tree/master/w03/d02/afternoon) | [Single Page Apps](Link) | [AJAX Walkthrough](Link) | [Lab](Link)  
 **Training** | [Unit 1 Project](LINK) | [Repo Link](LINK)  | [Repo Link](LINK) | [Repo Link](LINK) | -
