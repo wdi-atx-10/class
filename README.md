@@ -19,16 +19,16 @@ SCHEDULE TEMPLATE
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | Project | Project Presentations | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Recap 
-**10:00am <br> 1:00pm** | [Unit 1 Project](./w02/d05/morning) | [Project Presentations](https://github.com/wdi-atx-10/class/tree/master/w03/d02/morning) | [AJAX](https://github.com/wdi-atx-10/class/tree/master/w03/d03/morning) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/morning) | [Lab](Link)
-**2:00pm <br> 5:00pm** | [Unit 1 Project](./w02/d05/morning) |  [Object Oriented Programming](https://github.com/wdi-atx-10/class/tree/master/w03/d02/afternoon) | [Single Page Apps](https://github.com/wdi-atx-10/class/tree/master/w03/d03/afternoon) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/afternoon) | [Lab](Link)  
-**Training** | [Unit 1 Project](./w02/d05/morning) | - | - | - | -
+**10:00am <br> 1:00pm** | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project) | [Project Presentations](https://github.com/wdi-atx-10/class/tree/master/w03/d02/morning) | [AJAX](https://github.com/wdi-atx-10/class/tree/master/w03/d03/morning) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/morning) | [Lab](Link)
+**2:00pm <br> 5:00pm** | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project) |  [Object Oriented Programming](https://github.com/wdi-atx-10/class/tree/master/w03/d02/afternoon) | [Single Page Apps](https://github.com/wdi-atx-10/class/tree/master/w03/d03/afternoon) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/afternoon) | [Lab](Link)  
+**Training** | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project) | - | - | - | -
 
 #### Week 2 - JavaScript Fundamentals
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | [Moronic Monday](https://docs.google.com/spreadsheets/d/1XbCDlSrpbgk0BjVxJKGJIZGdiyd5I7vHEpPNMF2dBBM/edit) | [Array Practice](https://github.com/wdi-atx-10/class/tree/master/w02/d02/warmup) | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Calculator Hackathon](https://github.com/wdi-atx-10/calculatorhackathon) | Weekly Review  
-**10:00am <br> 1:00pm** | [JS Foundation](./w02/d01/morning) | [JS Functions](./w02/d02/morning) | [jQuery](./w02/d03/morning) | [DOM Manipulation](./w02/d04/morning) | [Unit 1 Project](./w02/d05/morning)
+**10:00am <br> 1:00pm** | [JS Foundation](./w02/d01/morning) | [JS Functions](./w02/d02/morning) | [jQuery](./w02/d03/morning) | [DOM Manipulation](./w02/d04/morning) | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project)
 **2:00pm <br> 5:00pm** | [JS Flow Control](./w02/d01/afternoon) |  [JS Objects](./w02/d02/afternoon) | [Events](./w02/d03/afternoon) | [Lab (DOM Manipulation)](./w02/d04/afternoon) | Unit 1 Project  
 **Training** | [JS Adventure](https://github.com/wdi-atx-10/js_adventure) | [Deck of Cards](https://github.com/wdi-atx-10/deck_of_cards) | [jQuery Events Training](https://github.com/wdi-atx-10/JQuery-Events-Training) | [LOTR jQuery](https://github.com/wdi-atx-10/lotr-dom-manipulation-lab)| -
 
