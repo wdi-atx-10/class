@@ -12,16 +12,16 @@ SCHEDULE TEMPLATE
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Morning Exercise 
 **10:00am <br> 1:00pm** | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
 **2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
-**Training** | [Repo Link](LINK) | [Repo Link](LINK)  | [Repo Link](LINK) | [Repo Link](LINK) | -
+**Training** | - | - | - | - | -
 --->
 #### Week 3 - Javascript - Single Page Applications, AJAX
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | Project | Project Presentations | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Recap 
-**10:00am <br> 1:00pm** | [Unit 1 Project](Link) | [Project Presentations](https://github.com/wdi-atx-10/class/tree/master/w03/d02/morning) | [AJAX](https://github.com/wdi-atx-10/class/tree/master/w03/d03/morning) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/morning) | [Lab](Link)
-**2:00pm <br> 5:00pm** | [Unit 1 Project](Link) |  [Object Oriented Programming](https://github.com/wdi-atx-10/class/tree/master/w03/d02/afternoon) | [Single Page Apps](https://github.com/wdi-atx-10/class/tree/master/w03/d03/afternoon) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/afternoon) | [Lab](Link)  
-**Training** | [Unit 1 Project](LINK) | [Repo Link](LINK)  | [Repo Link](LINK) | [Repo Link](LINK) | -
+**10:00am <br> 1:00pm** | [Unit 1 Project](./w02/d05/morning) | [Project Presentations](https://github.com/wdi-atx-10/class/tree/master/w03/d02/morning) | [AJAX](https://github.com/wdi-atx-10/class/tree/master/w03/d03/morning) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/morning) | [Lab](Link)
+**2:00pm <br> 5:00pm** | [Unit 1 Project](./w02/d05/morning) |  [Object Oriented Programming](https://github.com/wdi-atx-10/class/tree/master/w03/d02/afternoon) | [Single Page Apps](https://github.com/wdi-atx-10/class/tree/master/w03/d03/afternoon) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/afternoon) | [Lab](Link)  
+**Training** | [Unit 1 Project](./w02/d05/morning) | - | - | - | -
 
 #### Week 2 - JavaScript Fundamentals
 
