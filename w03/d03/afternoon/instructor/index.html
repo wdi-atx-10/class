@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Single Page App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <main class="weather-app container">
+
+      <div class="row form-row">
+        <div class="col-md-4 col-md-offset-4">
+          <h1 class="title">Weather App</h1>
+          <form class="getWeatherData">
+            <input type="text" class="weather-city" placeholder="Enter a city.."/>
+            <input type="submit" value="Get Weather">
+            <p class="city-error" style="display:none;">Whoops! Looks like that city doesn't exist, try another one.</p>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 results">
+
+          <h2 class="results-city"></h2>
+
+
+          <div class="temperature-container">
+            <span class="temperature-label"><strong>Temperature: </strong></span>
+            <span class="temperature"></span>
+          </div>
+
+          <div class="humidity-container">
+            <span class="humidity-label"><strong>Humidity: </strong></span>
+            <span class="humidity"></span>
+          </div>
+
+          <div class="description-container">
+            <span class="description-label"></span>
+            <span class="description"></span>
+          </div>
+
+        </div>
+      </div>
+
+    </main>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
