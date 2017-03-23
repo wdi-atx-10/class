@@ -1,9 +1,9 @@
-# Week 1 Learning Objectives 
+## Week 1 Learning Objectives 
 
-## Command Line Tools 
+### Command Line Tools 
 
 - Objective 1
 
-## Git
+### Git
 
 - Objective 1
