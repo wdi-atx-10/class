@@ -5,7 +5,7 @@
 <!---- 
 SCHEDULE TEMPLATE 
 
-#### Week N - TITLE
+### Week N - TITLE
 
 [Learning Objectives](./learning-objectives/week*.md)
 
@@ -17,7 +17,7 @@ SCHEDULE TEMPLATE
 **Training** | - | - | - | - | -
 --->
 
-#### Week 3 - Single Page Applications, AJAX
+### Week 3 - Single Page Applications, AJAX
 
 [Learning Objectives](./learning-objectives/week3.md)
 
@@ -28,7 +28,7 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | Unit 1 Project |  [Object Oriented Programming](https://github.com/wdi-atx-10/class/tree/master/w03/d02/afternoon) | [Single Page Apps](https://github.com/wdi-atx-10/class/tree/master/w03/d03/afternoon) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/afternoon) | [Lab](Link)  
 **Training** | Unit 1 Project | [Music Artist OOP](https://github.com/wdi-atx-10/music_artist_oop_relationships) | [Weather App](https://github.com/wdi-atx-10/weatherapp-customization) | - | -
 
-#### Week 2 - JavaScript Fundamentals
+### Week 2 - JavaScript Fundamentals
 
 [Learning Objectives](./learning-objectives/week2.md)
 
@@ -39,7 +39,7 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [JS Flow Control](./w02/d01/afternoon) |  [JS Objects](./w02/d02/afternoon) | [Events](./w02/d03/afternoon) | [Lab (DOM Manipulation)](./w02/d04/afternoon) | Unit 1 Project  
 **Training** | [JS Adventure](https://github.com/wdi-atx-10/js_adventure) | [Deck of Cards](https://github.com/wdi-atx-10/deck_of_cards) | [jQuery Events Training](https://github.com/wdi-atx-10/JQuery-Events-Training) | [LOTR jQuery](https://github.com/wdi-atx-10/lotr-dom-manipulation-lab)| Unit 1 Project
 
-#### Week 1 - Git, HTML, CSS
+### Week 1 - Git, HTML, CSS
 
 [Learning Objectives](./learning-objectives/week1.md)
 
