@@ -5,7 +5,9 @@
 <!---- 
 SCHEDULE TEMPLATE 
 
-#### Week N - TITLE
+### Week N - TITLE
+
+[Learning Objectives](./learning-objectives/week*.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
@@ -14,16 +16,21 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
 **Training** | - | - | - | - | -
 --->
-#### Week 3 - Single Page Applications, AJAX
+
+### Week 3 - Single Page Applications, AJAX
+
+[Learning Objectives](./learning-objectives/week3.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project) | Project Presentations | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Guest: Paul Boomgaart | Weekly Recap 
+**9:00am <br> 9:45am** | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project) | Project Presentations | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [CodeWars](https://www.codewars.com/) | Weekly Recap 
 **10:00am <br> 1:00pm** | Unit 1 Project | [Project Presentations](https://github.com/wdi-atx-10/class/tree/master/w03/d02/morning) | [AJAX](https://github.com/wdi-atx-10/class/tree/master/w03/d03/morning) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/morning) | [Lab](Link)
 **2:00pm <br> 5:00pm** | Unit 1 Project |  [Object Oriented Programming](https://github.com/wdi-atx-10/class/tree/master/w03/d02/afternoon) | [Single Page Apps](https://github.com/wdi-atx-10/class/tree/master/w03/d03/afternoon) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/afternoon) | [Lab](Link)  
-**Training** | Unit 1 Project | [Music Artist OOP](https://github.com/wdi-atx-10/music_artist_oop_relationships) | [Weather App](https://github.com/wdi-atx-10/weatherapp-customization) | - | -
+**Training** | Unit 1 Project | [Music Artist OOP](https://github.com/wdi-atx-10/music_artist_oop_relationships) | [Weather App](https://github.com/wdi-atx-10/weatherapp-customization) | [Spotify-Me](https://github.com/wdi-atx-10/spotify-me) | -
 
-#### Week 2 - JavaScript Fundamentals
+### Week 2 - JavaScript Fundamentals
+
+[Learning Objectives](./learning-objectives/week2.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
@@ -32,8 +39,9 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [JS Flow Control](./w02/d01/afternoon) |  [JS Objects](./w02/d02/afternoon) | [Events](./w02/d03/afternoon) | [Lab (DOM Manipulation)](./w02/d04/afternoon) | Unit 1 Project  
 **Training** | [JS Adventure](https://github.com/wdi-atx-10/js_adventure) | [Deck of Cards](https://github.com/wdi-atx-10/deck_of_cards) | [jQuery Events Training](https://github.com/wdi-atx-10/JQuery-Events-Training) | [LOTR jQuery](https://github.com/wdi-atx-10/lotr-dom-manipulation-lab)| Unit 1 Project
 
+### Week 1 - Git, HTML, CSS
 
-#### Week 1 - Git, HTML, CSS
+[Learning Objectives](./learning-objectives/week1.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
