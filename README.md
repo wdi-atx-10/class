@@ -7,7 +7,7 @@ SCHEDULE TEMPLATE
 
 #### Week N - TITLE
 
-[Week * Learning Objectives](./learning-objectives/week*.md)
+[Learning Objectives](./learning-objectives/week*.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
@@ -19,7 +19,7 @@ SCHEDULE TEMPLATE
 
 #### Week 3 - Single Page Applications, AJAX
 
-[Week 3 Learning Objectives](./learning-objectives/week3.md)
+[Learning Objectives](./learning-objectives/week3.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
@@ -30,7 +30,7 @@ SCHEDULE TEMPLATE
 
 #### Week 2 - JavaScript Fundamentals
 
-[Week 2 Learning Objectives](./learning-objectives/week2.md)
+[Learning Objectives](./learning-objectives/week2.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
@@ -41,7 +41,7 @@ SCHEDULE TEMPLATE
 
 #### Week 1 - Git, HTML, CSS
 
-[Week 1 Learning Objectives](./learning-objectives/week1.md)
+[Learning Objectives](./learning-objectives/week1.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
