@@ -26,7 +26,7 @@ SCHEDULE TEMPLATE
 **9:00am <br> 9:45am** | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project) | Project Presentations | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [CodeWars](https://www.codewars.com/) | Weekly Recap 
 **10:00am <br> 1:00pm** | Unit 1 Project | [Project Presentations](https://github.com/wdi-atx-10/class/tree/master/w03/d02/morning) | [AJAX](https://github.com/wdi-atx-10/class/tree/master/w03/d03/morning) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/morning) | [Lab](Link)
 **2:00pm <br> 5:00pm** | Unit 1 Project |  [Object Oriented Programming](https://github.com/wdi-atx-10/class/tree/master/w03/d02/afternoon) | [Single Page Apps](https://github.com/wdi-atx-10/class/tree/master/w03/d03/afternoon) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/afternoon) | [Lab](Link)  
-**Training** | Unit 1 Project | [Music Artist OOP](https://github.com/wdi-atx-10/music_artist_oop_relationships) | [Weather App](https://github.com/wdi-atx-10/weatherapp-customization) | - | -
+**Training** | Unit 1 Project | [Music Artist OOP](https://github.com/wdi-atx-10/music_artist_oop_relationships) | [Weather App](https://github.com/wdi-atx-10/weatherapp-customization) | [Spotify-Me](https://github.com/wdi-atx-10/spotify-me) | -
 
 ### Week 2 - JavaScript Fundamentals
 
