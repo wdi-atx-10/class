@@ -7,16 +7,19 @@ SCHEDULE TEMPLATE
 
 #### Week N - TITLE
 
+[Week * Learning Objectives](./learning-objectives/week*.md)
+
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Morning Exercise 
 **10:00am <br> 1:00pm** | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
 **2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
 **Training** | - | - | - | - | -
-
-[Week * Learning Objectives](./learning-objectives/week*.md)
 --->
+
 #### Week 3 - Single Page Applications, AJAX
+
+[Week 3 Learning Objectives](./learning-objectives/week3.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
@@ -25,9 +28,9 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | Unit 1 Project |  [Object Oriented Programming](https://github.com/wdi-atx-10/class/tree/master/w03/d02/afternoon) | [Single Page Apps](https://github.com/wdi-atx-10/class/tree/master/w03/d03/afternoon) | [AJAX Walkthrough](https://github.com/wdi-atx-10/class/tree/master/w03/d04/afternoon) | [Lab](Link)  
 **Training** | Unit 1 Project | [Music Artist OOP](https://github.com/wdi-atx-10/music_artist_oop_relationships) | [Weather App](https://github.com/wdi-atx-10/weatherapp-customization) | - | -
 
-[Week 3 Learning Objectives](./learning-objectives/week3.md)
-
 #### Week 2 - JavaScript Fundamentals
+
+[Week 2 Learning Objectives](./learning-objectives/week2.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
@@ -36,9 +39,9 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [JS Flow Control](./w02/d01/afternoon) |  [JS Objects](./w02/d02/afternoon) | [Events](./w02/d03/afternoon) | [Lab (DOM Manipulation)](./w02/d04/afternoon) | Unit 1 Project  
 **Training** | [JS Adventure](https://github.com/wdi-atx-10/js_adventure) | [Deck of Cards](https://github.com/wdi-atx-10/deck_of_cards) | [jQuery Events Training](https://github.com/wdi-atx-10/JQuery-Events-Training) | [LOTR jQuery](https://github.com/wdi-atx-10/lotr-dom-manipulation-lab)| Unit 1 Project
 
-[Week 2 Learning Objectives](./learning-objectives/week2.md)
-
 #### Week 1 - Git, HTML, CSS
+
+[Week 1 Learning Objectives](./learning-objectives/week1.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
@@ -46,8 +49,6 @@ SCHEDULE TEMPLATE
 **10:00am <br> 1:00pm** | [Icebreakers & Installfest](https://github.com/GA-WDI/installfest) | [Git](./w01/d02/morning) | [HTML Forms](./w01/d03/morning) | [Flexbox and the Box Model](./w01/d04/morning) | [Advanced CSS](./w01/d05/morning)
 **2:00pm <br> 5:00pm** | [Command Line Interface and Atom IDE](./w01/d01/afternoon) |  [Git(Hub)](./w01/d02/afternoon) | [CSS Foundation](./w01/d03/afternoon) | [CSS Frameworks](./w01/d04/afternoon) | [Lab (Advanced CSS)](./w01/d05/afternoon/front-end-lab)
 **Training** | [CLI Golf](https://github.com/wdi-atx-10/cli_golf) | [Git/GitHub Reading](https://github.com/wdi-atx-10/github-practice-reading) | [Flexbox Froggy](https://github.com/wdi-atx-10/flexbox-froggy) | [Flexbox News](https://github.com/wdi-atx-10/Flexbox-News) | -
-
-[Week 1 Learning Objectives](./learning-objectives/week1.md)
 
 ## Administrative
 
