@@ -17,8 +17,12 @@ function getRandomJoke(){
   })
   .done(function(response){
     console.log('response', response);
+    var oldJoke = $('#featured-jokes').html();
+    $('#previous-jokes').prepend(oldJoke);
+    $('#featured-jokes').html('');
+    
     var joke = response.value.joke;
-    $('p').text(joke);
+    $('#featured-jokes').append('<li>' + joke + '</li>');
   })
   .fail(function(error){
     console.log('error', error);
