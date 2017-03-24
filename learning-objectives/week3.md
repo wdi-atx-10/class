@@ -1,4 +1,4 @@
-## Week 3 Learning Objectives 
+## Week 3: Learning Objectives 
 
 ### OOP JS
 
