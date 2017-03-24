@@ -23,8 +23,8 @@ SCHEDULE TEMPLATE
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Morning Exercise 
-**10:00am <br> 1:00pm** | [Scrum Intro W/ UXDI](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
-**2:00pm <br> 5:00pm** | [How the Web Works](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
+**10:00am <br> 1:00pm** | [Scrum Intro W/ UXDI](Link) | [Express](Link) | [Mongoose](Link) | [Lesson Name](Link) | [Lesson Name](Link)
+**2:00pm <br> 5:00pm** | [How the Web Works](Link) |  [Mongo/ NoSQL](Link) | [Guided Mongoose Lab](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
 **Training** | - | - | - | - | -
 
 ### Week 3 - Single Page Applications, AJAX
