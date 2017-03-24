@@ -68,3 +68,10 @@
 - Explain the importance of sending responses with appropriate status codes
 - Describe API versioning and why it's important
 - Use Postman and JSON to interact with a REST API
+
+## Rest API Lab
+- What does REST stand for
+- Why can’t everything be a get request
+- Why even use restful methods??
+- Examples of rest APIS
+- Develop a rest API
