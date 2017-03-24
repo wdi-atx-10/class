@@ -1,4 +1,4 @@
-## Week 1 Learning Objectives 
+## Week 1: Learning Objectives 
 
 ### Command Line Tools 
 
