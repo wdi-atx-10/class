@@ -18,7 +18,7 @@ SCHEDULE TEMPLATE
 --->
 ### Week 4 - BACKEND
 
-[Learning Objectives](./learning-objectives/week*.md)
+[Learning Objectives](https://github.com/wdi-atx-10/class/blob/master/learning-objectives/week4.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
