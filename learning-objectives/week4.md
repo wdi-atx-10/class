@@ -1,4 +1,4 @@
-## Week 4 Learning Objectives 
+## Week 4 - Learning Objectives 
 
 ### How the Web Works 
 
