@@ -2,22 +2,12 @@
 
 ### How the Web Works 
 
-- Differentiate between internet and web
-- Explain how the internet works, including what web server is and what a client is
-- Explain what protocols are
-- Explain what TCP/IP is
-- IP Addresses
-- Define DNS and identify its role in the client-server relationship
-- Define HTTP and differentiate it from other protocols
-- List some common HTTP response codes
+- Explain the roles web servers and clients play
+- Explain what protocols are and the common ones related to the web (HTTP, HTTPS/SSL, TCP/IP)
+- Define DNS and IP addresses and identify their role in the client-server relationship
+- List some common HTTP response codes (200, 404, 500, 400, 302)
 - Describe the role of ports for incoming/outgoing data
-- Explain what SSL is (high level)
-- Explain what a REST API is
-- List the HTTP verbs most relevant to REST API's
-- Create a new object using POST
-- Read an existing object using GET
-- Update an existing object using PUT
-- Delete an existing object using DELETE
+- Explain what a REST API is by listing out the most relevant HTTP verbs (GET, POST, PUT, DELETE)
 
 ### Express
 
@@ -64,13 +54,11 @@
 ### REST API Design
 
 - Explain why we would develop an API on our own
-- Explain how Rails differentiates between request formats and serves the appropriate content format
 - Explain the importance of sending responses with appropriate status codes
 - Describe API versioning and why it's important
 - Use Postman and JSON to interact with a REST API
 
 ## Rest API Lab
-- What does REST stand for
 - Why can’t everything be a get request
 - Why even use restful methods??
 - Examples of rest APIS
