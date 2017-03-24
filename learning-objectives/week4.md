@@ -11,24 +11,23 @@
 
 ### Express
 
-- Describe what Express is
-- Install Express
-- Start an Express server
+- Explain Node.js is and what it allows us to do
+- Use NPM to install third party libraries 
+- Describe and install Express
 - Explain what middleware is used for
-- Describe how a templating engine works in Express
-- Define routes for different HTTP methods
-- Explain how to capture and use parameters
-- Explain how to include external libraries 
+- Describe how to use a templating engine with Express
+- Create routes for different HTTP methods
+- Explain how to capture and use query, body, and named parameters
 - Explain how to serve static content
-- Develop a web application with Express
 
 ### Mongo/NoSQL
 
-- Describe how Mongo databases came about & why they're useful
 - Compare and contrast NoSQL with SQL
-- Define what a document is in the context of MongoDB
-- Explain the difference between embedded and referenced documents, and how we use each to model relationships in MongoDB
-- Issue basic CRUD commands to a database from the Mongo Shell into MongoLab
+- Describe how Mongo databases came about & why they're useful
+- Define what documents and collections are in the context of MongoDB
+- Explain the difference between embedded and referenced documents
+- Model relationships in MongoDB
+- Issue basic CRUD commands to a database in MongoLab
 
 ### Mongoose 
 
@@ -57,8 +56,6 @@
 - Explain the importance of sending responses with appropriate status codes
 - Describe API versioning and why it's important
 - Use Postman and JSON to interact with a REST API
-
-## Rest API Lab
 - Why can’t everything be a get request
 - Why even use restful methods??
 - Examples of rest APIS
