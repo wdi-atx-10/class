@@ -16,7 +16,8 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
 **Training** | - | - | - | - | -
 --->
-### Week 4 - BACKEND
+
+### Week 4 - Node.js, MongoDB
 
 [Learning Objectives](https://github.com/wdi-atx-10/class/blob/master/learning-objectives/week4.md)
 
