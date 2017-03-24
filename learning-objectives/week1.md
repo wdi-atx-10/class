@@ -76,7 +76,7 @@
 - Include a non-standard font on a web page using the @font-face directive
 - Use CSS vendor prefixes for cross browser compliance
 
-### Flexbox and The Box Model
+### Flexbox and the Box Model
 
 ### CSS Frameworks
 
