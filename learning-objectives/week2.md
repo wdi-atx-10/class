@@ -1,4 +1,4 @@
-## Week 2 Learning Objectives 
+## Week 2: Learning Objectives 
 
 ### JS Basics
 - Explain what a programming language is
