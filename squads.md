@@ -34,7 +34,7 @@ Template:
 
 | Squad 1 | Squad 2 | Squad 3 | Squad 4 | Squad 5 | Squad 6 | Squad 7 |
 | --- | --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
+| Robert Saunders  |  |  |  |  |  |  |
+| Andrew Chan |  |  |  |  |  |  |
+| Sam Collette |  |  |  |  |  |  |
+| Salman Rana |  |  |  |  |  |  |
