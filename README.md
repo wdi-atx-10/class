@@ -23,7 +23,7 @@ SCHEDULE TEMPLATE
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Recap 
+**9:00am <br> 9:45am** | [Scrum Intro w/ UXDI](https://github.com/wdi-atx-10/class/tree/master/w04/d01/morning) | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Recap 
 **10:00am <br> 1:00pm** | [Scrum Intro w/ UXDI](https://github.com/wdi-atx-10/class/tree/master/w04/d01/morning) | [Express](https://github.com/wdi-atx-10/class/tree/master/w04/d02/morning) | [Mongoose](https://github.com/wdi-atx-10/class/tree/master/w04/d03/morning) | [Testing](https://github.com/wdi-atx-10/class/tree/master/w04/d04/morning) | [Lab](https://github.com/wdi-atx-10/class/tree/master/w04/d05/)
 **2:00pm <br> 5:00pm** | [How the Web Works](https://github.com/wdi-atx-10/class/tree/master/w04/d01/afternoon) |  [Mongo/ NoSQL](https://github.com/wdi-atx-10/class/tree/master/w04/d02/afternoon) | [Workshop - Mongoose](https://github.com/wdi-atx-10/class/tree/master/w04/d03/afternoon) | [Rest API Design](https://github.com/wdi-atx-10/class/tree/master/w04/d04/afternoon) | [Lab](https://github.com/wdi-atx-10/class/tree/master/w04/d05/)  
 **Training** | - | - | - | - | -
