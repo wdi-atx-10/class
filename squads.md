@@ -34,7 +34,7 @@ Template:
 
 | Squad 1 | Squad 2 | Squad 3 | Squad 4 | Squad 5 | Squad 6 | Squad 7 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Robert Saunders  | Matthew Heck | Daniel Doherty | Juliana Michelsen | Rene Sanchez | Komal Jadvani | Jacob Bodkin |
+| Robert Saunders  | Matthew Heck | Daniel Doherty | Juliana Michelsen | Rene Sanchez | Matthew Tan | Jacob Bodkin |
 | Andrew Chan | Tanya Selvog | Erik Morales | Peter Weyand | Remington Griffin | Melissa Pringle | Charles Orlando |
-| Sam Collette | Jorge Cano | Sarah Goldgar | Barbara Boutette | Matthew Tan | Christopher Jauregui | Ronak Singh |
+| Sam Collette | Jorge Cano | Sarah Goldgar | Barbara Boutette | Komal Jadvani | Christopher Jauregui | Ronak Singh |
 | Salman Rana | Jon Franchi |  |  |  |  |  |
