@@ -28,7 +28,7 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [How the Web Works](https://github.com/wdi-atx-10/class/tree/master/w04/d01/afternoon) |  [Mongo/ NoSQL](https://github.com/wdi-atx-10/class/tree/master/w04/d02/afternoon) | [Workshop - Mongoose](https://github.com/wdi-atx-10/class/tree/master/w04/d03/afternoon) | [Rest API Design](https://github.com/wdi-atx-10/class/tree/master/w04/d04/afternoon) | [Lab](https://github.com/wdi-atx-10/class/tree/master/w04/d05/)  
 **Training** | - | - | - | - | -
 
-### Week 3 - Single Page Applications, AJAX
+### Week 3 - Ajax, Single Page Applications
 
 [Learning Objectives](./learning-objectives/week3.md)
 
