@@ -172,7 +172,7 @@ Let's change the code to render a view instead of outputting text in the respons
 ```js
 // /routes/users.js
 router.get('/new', function(req, res, next) {
-	res.render('users/new');
+  res.render('users/new');
 });
 ```
 
@@ -280,12 +280,12 @@ Back to the code. Remember that our new route is going to be looking for a view 
 <style>
 
 #main {
-	margin: 30px;
+  margin: 30px;
 }
 
 footer {
-	font-size: 80%;
-	color: gray;
+  font-size: 80%;
+  color: gray;
 }
 
 </style>
@@ -308,13 +308,13 @@ footer {
 <% include ../partials/header %>
 
 <form name="new_user_form" id="new_user_form" method="post" action="/users">
-	<div>
-		Name: <input type="text" name="name" id="name">
-	</div>
-	<div>
-		Favorite thing in the world: <input type="text" name="favorite" id="favorite">
-	</div>
-	<input type="submit" value="Save">
+  <div>
+    Name: <input type="text" name="name" id="name">
+  </div>
+  <div>
+    Favorite thing in the world: <input type="text" name="favorite" id="favorite">
+  </div>
+  <input type="submit" value="Save">
 </form>
 
 <% include ../partials/footer %>
