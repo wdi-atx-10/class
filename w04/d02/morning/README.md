@@ -161,7 +161,7 @@ Open up ```/routes/users.js``` and add the following code to handle the new rout
 ```js
 // /routes/users.js
 router.get('/new', function(req, res, next) {
-	res.send('Show a form to add a new user');
+  res.send('Show a form to add a new user');
 });
 ```
 
