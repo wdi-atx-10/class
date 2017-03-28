@@ -356,7 +356,7 @@ Let's add the route to handle our form post.
 ```js
 // /routers/users.js
 router.post('/', function(req, res, next) {
-	// ...
+  // ...
 });
 ```
 
@@ -367,10 +367,10 @@ We now have a handler to handle the request, but we're not doing anything with t
 ```js
 // /routers/users.js
 router.post('/', function(req, res, next) {
-	console.log('Name: ' + req.body.name);
-	console.log('Favorite thing in the world: ' + req.body.favorite);
+  console.log('Name: ' + req.body.name);
+  console.log('Favorite thing in the world: ' + req.body.favorite);
 
-	res.end();
+  res.end();
 });
 ```
 
@@ -379,10 +379,10 @@ Check the terminal and you should see the correct values. Tomorrow we'll be cove
 ```js
 // /routers/users.js
 router.post('/', function(req, res, next) {
-    res.render('users/show', {
-        name: req.body.name,
-        favorite: req.body.favorite
-    });
+  res.render('users/show', {
+    name: req.body.name,
+    favorite: req.body.favorite
+  });
 });
 ```
 
@@ -412,9 +412,9 @@ Similarly, ```req.params``` can be used to capture named parameters.
 ```js
 // /routes/users.js
 router.get('/:name', function(req, res, next) {
-    res.render('users/show', {
-        name: req.params.name,
-        favorite: null
-    });
+  res.render('users/show', {
+    name: req.params.name,
+    favorite: null
+  });
 });
 ```
