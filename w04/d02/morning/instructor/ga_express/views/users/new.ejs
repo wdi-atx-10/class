@@ -1,0 +1,13 @@
+<% include ../partials/header %>
+
+<form name="new_user_form" id="new_user_form" method="post" action="/users">
+  <div>
+    Name: <input type="text" name="name" id="name">
+  </div>
+  <div>
+    Favorite thing in the world: <input type="text" name="favorite" id="favorite">
+  </div>
+  <input type="submit" value="Save">
+</form>
+
+<% include ../partials/footer %>
