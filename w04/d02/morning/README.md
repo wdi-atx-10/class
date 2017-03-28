@@ -273,10 +273,7 @@ Back to the code. Remember that our new route is going to be looking for a view 
 <head>
 <meta charset="UTF-8">
 <title>GA Express</title>
-<!-- Bootstrap CSS (load from a CDN) -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<!-- jQuery (load from a CDN) -->
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <style>
 
 #main {
@@ -291,14 +288,15 @@ footer {
 </style>
 </head>
 <body>
-<h1>GA Express</h1>
-<div id="main">
+  <h1>GA Express</h1>
+  <div id="main">
 ```
 
 ```html
-<!-- /views/partials/footer.ejs -->
-</div> <!-- //main -->
-<footer>&copy;2016 General Assembly Austin</footer>
+  <!-- /views/partials/footer.ejs -->
+  </div> <!-- //main -->
+  <footer>&copy;2016 General Assembly Austin</footer>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 </body>
 </html>
 ```
