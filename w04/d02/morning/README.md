@@ -1,4 +1,4 @@
-# Express Application Walkthrough
+# Express Walkthrough
 
 ### Review
 
