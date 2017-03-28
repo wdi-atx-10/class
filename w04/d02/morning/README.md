@@ -273,7 +273,7 @@ Back to the code. Remember that our new route is going to be looking for a view 
 <head>
 <meta charset="UTF-8">
 <title>GA Express</title>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <style>
 
 #main {
