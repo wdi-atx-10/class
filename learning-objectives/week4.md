@@ -55,9 +55,7 @@
 
 - Explain why we would develop an API on our own
 - Explain the importance of sending responses with appropriate status codes
-- Describe API versioning and why it's important
-- Use Postman and JSON to interact with a REST API
-- Why can’t everything be a get request
-- Why even use restful methods??
-- Examples of rest APIS
+- Clarify the reasons why we don't use a GET request for every API endpoint
+- Describe the patterns of a REST API
+- Use Postman to interact with a REST API
 - Develop a rest API
