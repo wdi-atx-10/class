@@ -1,6 +1,6 @@
 # Workshop - StarCraft (Mongoose Expansion)
 
-> This is an outline for you to begin taking your own notes on how the application in today's lesson is put together from start to finish. 
+> This is an outline for you to begin taking your own notes on how the application in today's lesson is put together from start to finish.
 
 ## What's Being Built?
 
@@ -11,7 +11,7 @@ We're going to develop an application that allows us to both see and add units f
 ## Create a Remote mLab Database
 
 1. Create an account on [mLab](https://mlab.com/) if you don't already have one
-2. Create a new sandbox database 
+2. Create a new sandbox database
 3. Create a new database user
 4. Take note of the connection string given to us for later
 
@@ -20,25 +20,63 @@ We're going to develop an application that allows us to both see and add units f
 1. Plan the document structure, what models will be needed and what attributes will be stored in each model?
 2. Plan the routes our application will require
 
-## Create the Express Application 
+## Create the Express Application
 
-1. Step one
+1. Create the project directory
+2. `cd` into the project directory
+3. Ran `express -e` on the command line
+4. Ran `npm install` on the command line
+5. Ran `nodemon` to start the server
+6. Went to http://localhost:3000 to view the webpage
 
 ## Set up Environment Variables
 
-1. Step one
+1. Created .gitignore in the root of the website
+2. Added `.env` and `node_modules` to .gitignore
+3. Created `.env` file and put our database connection string in
+
+## Install dotenv and mongoose Packages
+
+1. Ran `npm install dotenv --save`
+2. Ran `npm install mongoose --save`
+3. Add code needed for dotenv to run at the top of the `app.js` file
+
+```js
+require('dotenv').config({ silent: true });
+```
+
+4. Add code needed for mongoose to run
+
+```js
+var mongoose = require('mongoose');
+mongoose.connect(process.env.STARCRAFT_DB_CONN);
+```
 
 ## Set up Route Placeholders and Views
 
-1. Step one
+1. Take the routes we planned and create placeholders
 
 ## Set up Models
 
+1. Create models folder
+2. Created model files required: race.js, unit.js, hero.js
+3. Added Mongoose schema for each file.
+
+```js
+var mongoose = require('mongoose');
+
+var schema = new mongoose.Schema({
+  name: { type: String, required: true }
+});
+
+var Race = mongoose.model('Race', schema);
+
+module.exports = Race;
+```
+
+## Seed Data
+
 1. Step one
-
-## Seed Data 
-
-1. Step one 
 
 ## Route for Returning All Races
 
@@ -56,7 +94,7 @@ We're going to develop an application that allows us to both see and add units f
 
 ```
 
-## Route for Adding a New Unit 
+## Route for Adding a New Unit
 
 ```js
 
@@ -66,4 +104,4 @@ We're going to develop an application that allows us to both see and add units f
 
 ## Bonus
 
-- Add support for structures as well 
+- Add support for structures as well
