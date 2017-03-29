@@ -1,8 +1,10 @@
-# Workshop - Mongoose
+# Workshop - StarCraft (Mongoose Expansion)
 
 > This is an outline for you to begin taking your own notes on how the application in today's lesson is put together from start to finish. 
 
 ## What's Being Built?
+
+We're going to develop an application that allows us to both see and create units for the three races within [StarCraft](http://us.blizzard.com/en-us/games/sc/)
 
 [List of StarCraft Units](http://starcraft.wikia.com/wiki/List_of_StarCraft_II_units)
 
