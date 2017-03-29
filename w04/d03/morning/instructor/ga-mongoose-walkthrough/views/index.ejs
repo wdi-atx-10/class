@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <form action="/users" method="post">
+      Name: <input type="text" name="name">
+      Email: <input type="text" name="email">
+      Favorite: <input type="text" name="favorite">
+      <input type="submit" value="Create A New User">
+    </form>
+  </body>
+</html>
