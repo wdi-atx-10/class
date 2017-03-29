@@ -8,7 +8,7 @@ This is an outline for you to begin taking your own notes on how the application
 
 ## Create a Remote mLab Database
 
-1. Create an account on mLab if you don't already have one
+1. Create an account on [mLab](https://mlab.com/) if you don't already have one
 2. Create a new sandbox database 
 3. Create a new database user
 4. Take note of the connection string given to us for later
