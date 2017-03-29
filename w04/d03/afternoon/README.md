@@ -13,6 +13,11 @@ This is an outline for you to begin taking your own notes on how the application
 3. Create a new database user
 4. Take note of the connection string given to us for later
 
+## Planning
+
+1. Plan the document structure, what models will be needed and what attributes will be stored in each model?
+2. Plan the routes our application will require
+
 ## Create the Express Application 
 
 1. Step one
@@ -21,10 +26,39 @@ This is an outline for you to begin taking your own notes on how the application
 
 1. Step one
 
-## Set Up Routes
+## Set up Route Placeholders and Views
 
 1. Step one
 
-## Set Up Models
+## Set up Models
 
 1. Step one
+
+## Seed Data 
+
+1. Step one 
+
+## Route for Returning All Races
+
+```js
+
+// code sample
+
+```
+
+## Route for Returning All Units Within a Race
+
+```js
+
+// code sample
+
+```
+
+## Route for Adding a New Unit 
+
+```js
+
+// code sample
+
+```
+
