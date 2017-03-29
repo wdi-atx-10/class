@@ -8,12 +8,12 @@ You are strongly encouraged to use these times to also work with fellow students
 
 ## General Review
 
-**Tuesdays 5:00pm-6:00pm**
+**Tuesdays - 5:00pm-6:00pm**
 
 General Review sessions are a chance for you to receive extra help on topics that we already discussed in class. The topics can range from what we did in class that day to something from day one if required. The instructor will ask for topics that students wish to discuss and priortize what topics to go over for everyone. 
 
 ## Homework Feedback 
 
-**Wednesdays 5:00pm-6:00pm**
+**Wednesdays - 5:00pm-6:00pm**
 
 Homework Feedback sessions are a chance for you to have an instructor review your code from homework that you might be unsure of. Even if you were able to get it to work, you might be wondering if there was another way to accomplish the same task possibly. 
