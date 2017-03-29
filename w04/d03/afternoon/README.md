@@ -62,3 +62,6 @@
 
 ```
 
+## Bonus
+
+- Add support for structures as well 
