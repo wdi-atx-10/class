@@ -8,4 +8,8 @@ You are strongly encouraged to use these times to also work with fellow students
 
 ## General Review
 
+General Review sessions are a chance for you to receive extra help on topics that we already discussed in class. These topics can range from what we do in class that day to something from day one if needed. The instructor will ask for topics that students want to discuss and priortize what topics to go over for everyone. 
+
 ## Homework Feedback 
+
+Homework Feedback sessions are a chance for you to have an instructor review your code from homework that you might be unsure of. Even if you were able to get it to work, you might be wondering if there was another way to accomplish the same task possibly. 
