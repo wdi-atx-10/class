@@ -17,3 +17,5 @@ General Review sessions are a chance for you to receive extra help on topics tha
 **Wednesday - 5:00pm to 6:00pm***
 
 Homework Feedback sessions are a chance for you to have an instructor review your code from homework that you might be unsure of. Even if you were able to get something to work, you might be wondering if there was another way to accomplish the same task. This time will be focused on code that has already been written by students.  
+
+* Excludes project weeks
