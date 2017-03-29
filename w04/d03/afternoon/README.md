@@ -1,6 +1,6 @@
 # Workshop - Mongoose
 
-This is an outline for you to begin taking your own notes on how the application in today's lesson is put together from start to finish. 
+> This is an outline for you to begin taking your own notes on how the application in today's lesson is put together from start to finish. 
 
 ## What's Being Built?
 
