@@ -67,24 +67,28 @@ mongoose.connect(process.env.STARCRAFT_DB_CONN);
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET /races */
 router.get('/', function(req, res, next) {
   res.send('show all races');
 });
 
+/* GET /races/:raceId */
 router.get('/:raceId', function(req, res) {
   res.send('show details for a single race: ' + req.params.raceId);
 });
 
+/* GET /races/:raceId/units */
 router.get('/:raceId/units', function(req, res) {
   res.send('display all units for this race: ' + req.params.raceId);
 });
 
+/* POST /races/:raceId/units */
 router.post('/:raceId/units', function(req, res) {
   res.send('save a new unit for this race: ' + req.params.raceId);
   // Redirect to index page for all units
 });
 
+/* GET /races/:raceId/units/new */
 router.get('/:raceId/units/new', function(req, res) {
   res.send('display the form for adding a new unit');
 });
