@@ -148,6 +148,14 @@ module.exports = Race;
 
 ```
 
+## Route for Displaying a Form for Adding a New Unit
+
+```js
+
+// code sample
+
+```
+
 ## Route for Adding a New Unit
 
 ```js
