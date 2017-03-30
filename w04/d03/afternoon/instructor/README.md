@@ -8,17 +8,17 @@ We're going to develop an application that allows us to both view and add new un
 
 [List of StarCraft Units](http://starcraft.wikia.com/wiki/List_of_StarCraft_II_units)
 
+## Planning
+
+1. Plan the document structure, what models will be needed and what attributes will be stored in each model?
+2. Plan the routes our application will require
+
 ## Create a Remote mLab Database
 
 1. Sign into [mLab](https://mlab.com/) or create an account if you don't already have one
 2. Create a new sandbox database
 3. Create a new database user
 4. Take note of the connection string given to us for later
-
-## Planning
-
-1. Plan the document structure, what models will be needed and what attributes will be stored in each model?
-2. Plan the routes our application will require
 
 ## Create the Express Application
 
@@ -35,7 +35,7 @@ We're going to develop an application that allows us to both view and add new un
 2. Added `.env` and `node_modules` to .gitignore
 3. Created `.env` file and put our database connection string in
 
-## Install dotenv and mongoose Packages
+## Install dotenv and mongoose
 
 1. Ran `npm install dotenv --save`
 2. Ran `npm install mongoose --save`
