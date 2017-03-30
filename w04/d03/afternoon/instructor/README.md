@@ -27,13 +27,19 @@ We're going to develop an application that allows us to both view and add new un
 3. Ran `express -e` on the command line
 4. Ran `npm install` on the command line
 5. Ran `nodemon` to start the server
-6. Went to http://localhost:3000 to view the webpage
+6. Went to http://localhost:3000 to view our website
 
 ## Set up Environment Variables
 
 1. Created .gitignore in the root of the website
 2. Added `.env` and `node_modules` to .gitignore
 3. Created `.env` file and put our database connection string in
+
+```
+# .env
+# Note that this is an example value, yours will be different
+STARCRAFT_DB_CONN=mongodb://username:password@ds145790.mlab.com:45790/starcraft
+```
 
 ## Install dotenv and mongoose
 
@@ -54,31 +60,35 @@ mongoose.connect(process.env.STARCRAFT_DB_CONN);
 
 ## Set up Route Placeholders and Views
 
-1. Create a new routes file: `routes.js`
+1. Create a new routes file: `races.js`
 
 ```js
 // routes/races.js
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET /races */
 router.get('/', function(req, res, next) {
   res.send('show all races');
 });
 
+/* GET /races/:raceId */
 router.get('/:raceId', function(req, res) {
   res.send('show details for a single race: ' + req.params.raceId);
 });
 
+/* GET /races/:raceId/units */
 router.get('/:raceId/units', function(req, res) {
   res.send('display all units for this race: ' + req.params.raceId);
 });
 
+/* POST /races/:raceId/units */
 router.post('/:raceId/units', function(req, res) {
   res.send('save a new unit for this race: ' + req.params.raceId);
   // Redirect to index page for all units
 });
 
+/* GET /races/:raceId/units/new */
 router.get('/:raceId/units/new', function(req, res) {
   res.send('display the form for adding a new unit');
 });
@@ -104,7 +114,7 @@ app.use('/races', races); // new
 
 1. Create models folder
 2. Created model files required: race.js, unit.js, hero.js
-3. Added Mongoose schema for each file.
+3. Added Mongoose schema for race.js
 
 ```js
 var mongoose = require('mongoose');
@@ -116,6 +126,14 @@ var schema = new mongoose.Schema({
 var Race = mongoose.model('Race', schema);
 
 module.exports = Race;
+```
+
+4. Added Mongoose schema for unit.js
+
+```js
+
+// code sample
+
 ```
 
 ## Seed Data
@@ -131,6 +149,14 @@ module.exports = Race;
 ```
 
 ## Route for Returning All Units Within a Race
+
+```js
+
+// code sample
+
+```
+
+## Route for Displaying a Form for Adding a New Unit
 
 ```js
 
