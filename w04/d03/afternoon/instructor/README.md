@@ -114,7 +114,7 @@ app.use('/races', races); // new
 
 1. Create models folder
 2. Created model files required: race.js, unit.js, hero.js
-3. Added Mongoose schema for each file.
+3. Added Mongoose schema for race.js
 
 ```js
 var mongoose = require('mongoose');
@@ -126,6 +126,14 @@ var schema = new mongoose.Schema({
 var Race = mongoose.model('Race', schema);
 
 module.exports = Race;
+```
+
+4. Added Mongoose schema for unit.js
+
+```js
+
+// code sample
+
 ```
 
 ## Seed Data
