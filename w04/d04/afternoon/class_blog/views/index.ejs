@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <ul class="posts">
+    <% posts.reverse().forEach(function(post,index){ %>
+      <li data-id="<%= post._id %>">
+        <p><%= post.title %></p>
+        <p><%= post.body %></p>
+        <p><%= post.date %></p>
+      </li>
+    <% }); %>
+    </ul>
+  </body>
+</html>
