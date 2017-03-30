@@ -35,6 +35,11 @@ We're going to develop an application that allows us to both view and add new un
 2. Added `.env` and `node_modules` to .gitignore
 3. Created `.env` file and put our database connection string in
 
+```
+# .env
+STARCRAFT_DB_CONN=mongodb://username:password@ds145790.mlab.com:45790/starcraft
+```
+
 ## Install dotenv and mongoose
 
 1. Ran `npm install dotenv --save`
