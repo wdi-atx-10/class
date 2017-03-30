@@ -54,7 +54,7 @@ mongoose.connect(process.env.STARCRAFT_DB_CONN);
 
 ## Set up Route Placeholders and Views
 
-1. Create a new routes file: `routes.js`
+1. Create a new routes file: `races.js`
 
 ```js
 // routes/races.js
