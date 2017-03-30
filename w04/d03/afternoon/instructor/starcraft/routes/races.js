@@ -1,17 +1,46 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+var Race = require('../models/race');
+var Unit = require('../models/unit');
+
 router.get('/', function(req, res, next) {
-  res.send('show all races');
+  Race.find({}, function(err, races) {
+    if (err) {
+      console.log('Database Error:', err);
+    }
+
+    console.log('Races: ', races);
+
+    res.render('races/index', {
+      races: races
+    });
+  });
 });
 
 router.get('/:raceId', function(req, res) {
-  res.send('show details for a single race: ' + req.params.raceId);
+  Race.findById(req.params.raceId, function(err, race) {
+    if (err) {
+      console.log('err: ', err);
+    }
+
+    res.render('races/show', {
+      race: race
+    });
+  });
 });
 
 router.get('/:raceId/units', function(req, res) {
-  res.send('display all units for this race: ' + req.params.raceId);
+  Unit.find({ race: req.params.raceId }, function(err, units) {
+    if (err) {
+      console.log('Error: ', err);
+    }
+    console.log('Units: ', units);
+
+    res.render('races/units', {
+      units: units
+    });
+  });
 });
 
 router.post('/:raceId/units', function(req, res) {
