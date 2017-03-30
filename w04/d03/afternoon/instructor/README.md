@@ -188,6 +188,7 @@ $ node seedRaces.js
 ```
 
 ```js
+// seedUnits.js
 require('dotenv').config({ silent: true });
 
 var mongoose = require('mongoose');
