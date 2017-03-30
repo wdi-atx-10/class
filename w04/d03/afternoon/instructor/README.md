@@ -37,6 +37,7 @@ We're going to develop an application that allows us to both view and add new un
 
 ```
 # .env
+# Note that this is an example value, yours will be different
 STARCRAFT_DB_CONN=mongodb://username:password@ds145790.mlab.com:45790/starcraft
 ```
 
