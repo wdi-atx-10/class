@@ -10,7 +10,7 @@ We're going to develop an application that allows us to both view and add new un
 
 ## Create a Remote mLab Database
 
-1. Create an account on [mLab](https://mlab.com/) if you don't already have one
+1. Sign into [mLab](https://mlab.com/) or create an account if you don't already have one
 2. Create a new sandbox database
 3. Create a new database user
 4. Take note of the connection string given to us for later
@@ -54,7 +54,51 @@ mongoose.connect(process.env.STARCRAFT_DB_CONN);
 
 ## Set up Route Placeholders and Views
 
-1. Take the routes we planned and create placeholders
+1. Create a new routes file: `routes.js`
+
+```js
+// routes/races.js
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.send('show all races');
+});
+
+router.get('/:raceId', function(req, res) {
+  res.send('show details for a single race: ' + req.params.raceId);
+});
+
+router.get('/:raceId/units', function(req, res) {
+  res.send('display all units for this race: ' + req.params.raceId);
+});
+
+router.post('/:raceId/units', function(req, res) {
+  res.send('save a new unit for this race: ' + req.params.raceId);
+  // Redirect to index page for all units
+});
+
+router.get('/:raceId/units/new', function(req, res) {
+  res.send('display the form for adding a new unit');
+});
+
+module.exports = router;
+```
+
+2. Set up `app.js` to use the new routes
+
+```js
+// app.js
+// ...
+var index = require('./routes/index');
+var users = require('./routes/users');
+var races = require('./routes/races'); // new
+// ...
+app.use('/', index);
+app.use('/users', users);
+app.use('/races', races); // new
+```
 
 ## Set up Models
 
