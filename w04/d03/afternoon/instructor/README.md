@@ -4,7 +4,7 @@
 
 ## What's Being Built?
 
-We're going to develop an application that allows us to both see and add units for the three races within [StarCraft](http://us.blizzard.com/en-us/games/sc/).
+We're going to develop an application that allows us to both view and add new units for the three races within  [StarCraft](http://us.blizzard.com/en-us/games/sc/), the best game ever created.
 
 [List of StarCraft Units](http://starcraft.wikia.com/wiki/List_of_StarCraft_II_units)
 
