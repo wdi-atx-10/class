@@ -27,7 +27,7 @@ We're going to develop an application that allows us to both view and add new un
 3. Ran `express -e` on the command line
 4. Ran `npm install` on the command line
 5. Ran `nodemon` to start the server
-6. Went to http://localhost:3000 to view the webpage
+6. Went to http://localhost:3000 to view our website
 
 ## Set up Environment Variables
 
