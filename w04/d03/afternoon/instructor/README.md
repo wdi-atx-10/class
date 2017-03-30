@@ -35,7 +35,7 @@ We're going to develop an application that allows us to both view and add new un
 2. Added `.env` and `node_modules` to .gitignore
 3. Created `.env` file and put our database connection string in
 
-## Install dotenv and mongoose Packages
+## Install dotenv and mongoose
 
 1. Ran `npm install dotenv --save`
 2. Ran `npm install mongoose --save`
