@@ -30,7 +30,7 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [How the Web Works](https://github.com/wdi-atx-10/class/tree/master/w04/d01/afternoon) |  [MongoDB / NoSQL](https://github.com/wdi-atx-10/class/tree/master/w04/d02/afternoon) | [Workshop - Express / Mongoose](https://github.com/wdi-atx-10/class/tree/master/w04/d03/afternoon) | [REST API Design](https://github.com/wdi-atx-10/class/tree/master/w04/d04/afternoon) | [Lab](https://github.com/wdi-atx-10/class/tree/master/w04/d05/)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
-**Training** | [JavaScript Challenges](https://github.com/wdi-atx-10/javascript-challenge-homework) | [Emergency Compliment](https://github.com/wdi-atx-10/emergency_compliment) | [Blogs](https://github.com/wdi-atx-10/class/blob/master/blogging.md) | - | -
+**Training** | [JavaScript Challenges](https://github.com/wdi-atx-10/javascript-challenge-homework) | [Emergency Compliment](https://github.com/wdi-atx-10/emergency_compliment) | [Blogs](https://github.com/wdi-atx-10/class/blob/master/blogging.md) | [Emergency Mongoose Compliment](https://github.com/wdi-atx-10/mongoose_compliment) | -
 
 ### Week 3 - AJAX, Single Page Applications
 
