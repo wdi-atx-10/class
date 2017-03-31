@@ -27,8 +27,8 @@ SCHEDULE TEMPLATE
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Recap 
-**10:00am <br> 1:00pm** | [Intro to Auth](Link) | [API Auth](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
-**2:00pm <br> 5:00pm** | [Auth0](Link) |  [API Auth](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
+**10:00am <br> 1:00pm** | [Intro to Auth](Link) | [API Auth](Link) | [OAuth](Link) | [Lesson Name](Link) | [Lesson Name](Link)
+**2:00pm <br> 5:00pm** | [Auth0](Link) |  [API Auth](Link) | [OAuth](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
 **Training** | - | - | - | - | -
