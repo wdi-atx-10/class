@@ -21,7 +21,7 @@
 - Explain how to capture and use query, body, and named parameters
 - Explain how to serve static content
 
-### Mongo/NoSQL
+### MongoDB / NoSQL
 
 - Compare and contrast NoSQL with SQL
 - Describe how Mongo databases came about & why they're useful
