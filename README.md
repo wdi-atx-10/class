@@ -11,7 +11,7 @@ SCHEDULE TEMPLATE
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Morning Exercise 
+**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Recap 
 **10:00am <br> 1:00pm** | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
 **2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
@@ -51,7 +51,7 @@ SCHEDULE TEMPLATE
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | [Moronic Monday](https://docs.google.com/spreadsheets/d/1XbCDlSrpbgk0BjVxJKGJIZGdiyd5I7vHEpPNMF2dBBM/edit) | [Array Practice](https://github.com/wdi-atx-10/class/tree/master/w02/d02/warmup) | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Calculator Hackathon](https://github.com/wdi-atx-10/calculatorhackathon) | Weekly Review  
+**9:00am <br> 9:45am** | [Moronic Monday](https://docs.google.com/spreadsheets/d/1XbCDlSrpbgk0BjVxJKGJIZGdiyd5I7vHEpPNMF2dBBM/edit) | [Array Practice](https://github.com/wdi-atx-10/class/tree/master/w02/d02/warmup) | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Calculator Hackathon](https://github.com/wdi-atx-10/calculatorhackathon) | Weekly Recap  
 **10:00am <br> 1:00pm** | [JS Foundation](./w02/d01/morning) | [JS Functions](./w02/d02/morning) | [jQuery](./w02/d03/morning) | [DOM Manipulation](./w02/d04/morning) | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project)
 **2:00pm <br> 5:00pm** | [JS Flow Control](./w02/d01/afternoon) |  [JS Objects](./w02/d02/afternoon) | [Events](./w02/d03/afternoon) | [Lab - DOM Manipulation](./w02/d04/afternoon) | Unit 1 Project  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
@@ -64,7 +64,7 @@ SCHEDULE TEMPLATE
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | Introductions| [Intro to Blogs](./blogging.md) | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Garnet and Squads Setup](https://garnet.wdidc.org/) | Weekly Review 
+**9:00am <br> 9:45am** | Introductions| [Intro to Blogs](./blogging.md) | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Garnet and Squads Setup](https://garnet.wdidc.org/) | Weekly Recap 
 **10:00am <br> 1:00pm** | [Icebreakers & Installfest](https://github.com/GA-WDI/installfest) | [Git](./w01/d02/morning) | [HTML Forms](./w01/d03/morning) | [Flexbox and the Box Model](./w01/d04/morning) | [Workshop - Advanced CSS](./w01/d05/morning)
 **2:00pm <br> 5:00pm** | [Command Line Interface and Atom IDE](./w01/d01/afternoon) |  [Git(Hub)](./w01/d02/afternoon) | [CSS Foundation](./w01/d03/afternoon) | [CSS Frameworks](./w01/d04/afternoon) | [Workshop - Advanced CSS](./w01/d05/afternoon/front-end-lab)
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
