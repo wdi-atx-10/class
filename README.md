@@ -28,7 +28,7 @@ SCHEDULE TEMPLATE
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Recap 
 **10:00am <br> 1:00pm** | [Intro to Auth](https://github.com/wdi-atx-10/class/tree/master/w05/d01/morning) | [API Auth](https://github.com/wdi-atx-10/class/tree/master/w05/d02/morning) | [OAuth](https://github.com/wdi-atx-10/class/tree/master/w05/d03/morning) | [Web Sockets](https://github.com/wdi-atx-10/class/tree/master/w05/d04/morning) | [Group Projects](Link)
-**2:00pm <br> 5:00pm** | [Auth0](Link) |  [API Auth](Link) | [OAuth](Link) | [Testing](Link) | [Group Projects](Link)  
+**2:00pm <br> 5:00pm** | [Auth0](https://github.com/wdi-atx-10/class/tree/master/w05/d01/afternoon) |  [API Auth](https://github.com/wdi-atx-10/class/tree/master/w05/d02/afternoon) | [OAuth](https://github.com/wdi-atx-10/class/tree/master/w05/d03/afternoon) | [Testing](https://github.com/wdi-atx-10/class/tree/master/w05/d04/afternoon) | [Group Projects](Link)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
 **Training** | - | - | - | - | -
