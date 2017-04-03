@@ -22,7 +22,7 @@ SCHEDULE TEMPLATE
 
 ### Week 5 - Backend, Authentication
 
-[Learning Objectives](./learning-objectives/week*.md)
+[Learning Objectives](./learning-objectives/week5.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
