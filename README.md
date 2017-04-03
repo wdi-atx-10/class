@@ -20,7 +20,7 @@ SCHEDULE TEMPLATE
 --->
 
 
-### Week 6 - Group Project Week
+> Week 6 - Group Project Week
 
 ### Week 5 - Authentication, Testing
 
