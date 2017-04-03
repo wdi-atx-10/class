@@ -20,7 +20,7 @@ SCHEDULE TEMPLATE
 --->
 
 
-### Week 5 - Backend, Authentication
+### Week 5 - Authentication, Testing
 
 [Learning Objectives](./learning-objectives/week5.md)
 
