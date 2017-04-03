@@ -33,7 +33,7 @@ SCHEDULE TEMPLATE
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
 **Training** | - | - | - | - | -
 
-### Week 4 - Node.js, MongoDB
+### Week 4 - Node.js, Express, MongoDB
 
 [Learning Objectives](https://github.com/wdi-atx-10/class/blob/master/learning-objectives/week4.md)
 
