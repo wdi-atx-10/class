@@ -65,7 +65,7 @@ Development | Presentations w/ UXDI
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
 **Training** | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project) | [Music Artist OOP](https://github.com/wdi-atx-10/music_artist_oop_relationships) | [Weather App](https://github.com/wdi-atx-10/weatherapp-customization) | [Spotify-Me](https://github.com/wdi-atx-10/spotify-me) | -
 
-### Week 2 - JavaScript Fundamentals
+### Week 2 - JavaScript
 
 [Learning Objectives](./learning-objectives/week2.md)
 
