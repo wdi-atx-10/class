@@ -20,7 +20,11 @@ SCHEDULE TEMPLATE
 --->
 
 
-> Week 6 - Group Project Week
+### Week 6 - Group Project Week
+
+Day 1 - Day 4 | Day 5|
+----- | ------ | 
+Development | Presentations w/ UXDI
 
 ### Week 5 - Authentication, Testing
 
