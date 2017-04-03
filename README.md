@@ -37,7 +37,7 @@ Development | Presentations w/ UXDI
 **2:00pm <br> 5:00pm** | [Workshop: Auth0](https://github.com/wdi-atx-10/class/tree/master/w05/d01/afternoon) |  [Workshop: API Auth](https://github.com/wdi-atx-10/class/tree/master/w05/d02/afternoon) | [Workshop: OAuth](https://github.com/wdi-atx-10/class/tree/master/w05/d03/afternoon) | [Testing](https://github.com/wdi-atx-10/class/tree/master/w05/d04/afternoon) | [Group Projects - UXDI Handoff](Link)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
-**Training** | - | - | - | - | -
+**Training** | [JWT](https://github.com/wdi-atx-10/jwt) | - | - | - | -
 
 ### Week 4 - Node.js, Express, MongoDB
 
