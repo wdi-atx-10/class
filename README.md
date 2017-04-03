@@ -20,6 +20,8 @@ SCHEDULE TEMPLATE
 --->
 
 
+### Week 6 - Group Project Week
+
 ### Week 5 - Authentication, Testing
 
 [Learning Objectives](./learning-objectives/week5.md)
