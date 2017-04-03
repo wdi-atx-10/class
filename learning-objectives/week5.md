@@ -11,9 +11,11 @@
 * Demonstrate how cookies are sent back and forth between client and server
 * Explain the difference between session data, cookie data, and local storage
 
-### User Authentication:
+### User Authentication
 
 * Provide a high-level explanation of what authentication is.
 * Explain the difference between authentication and authorization.
 * Describe some basic security measures for handling sensitive data, such as passwords.
 * Explain the difference between encryption and hashing
+
+### API Authentication
