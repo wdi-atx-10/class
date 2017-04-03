@@ -21,7 +21,7 @@
 - Explain how to capture and use query, body, and named parameters
 - Explain how to serve static content
 
-### Mongo/NoSQL
+### MongoDB / NoSQL
 
 - Compare and contrast NoSQL with SQL
 - Describe how Mongo databases came about & why they're useful
@@ -52,12 +52,10 @@
 - Write tests for our code
 
 ### REST API Design
-
-- Explain why we would develop an API on our own
-- Explain the importance of sending responses with appropriate status codes
-- Describe API versioning and why it's important
-- Use Postman and JSON to interact with a REST API
-- Why can’t everything be a get request
-- Why even use restful methods??
-- Examples of rest APIS
+- Describe what REST is
+- Describe the 5 major REST request types (GET,POST,PUT,PATCH,DELETE) and the difference between them
+- Point out the differences between a REST API, and a Non-restful API
+- Clarify the reasons why we don't use a GET request for every API endpoint
+- Describe the patterns of a REST API
+- Use Postman to interact with a REST API
 - Develop a rest API
