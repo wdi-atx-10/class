@@ -16,3 +16,10 @@
 * Explain the difference between encryption and hashing
 
 ### API Authentication
+
+* Explain why we would want to require authentication for our API 
+* Describe how JWT's work and what makes them efficient 
+* List some common claims we might include in the payload for a JWT
+* Add an authorization header in Postman to authenticate a request
+* Use middleware in Express to lock down specific endpoints
+* Allow a user to log into an API with a username/password
