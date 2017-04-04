@@ -24,7 +24,7 @@ SCHEDULE TEMPLATE
 
 Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5|
 ----- | ----- | ------ | ------ | ------ | ------ | 
-**9:00am <br> 5:00pm** | Development | Development | Development | Development | Presentations w/ UXDI
+**9:00am <br> 5:00pm** | Development | Development | Development | Development | Project Presentations w/ UXDI
 
 ### Week 5 - Authentication, Testing
 
