@@ -117,6 +117,7 @@ app.use('/races', races); // new
 3. Added Mongoose schema for race.js
 
 ```js
+// models/race.js
 var mongoose = require('mongoose');
 
 var schema = new mongoose.Schema({
@@ -131,14 +132,125 @@ module.exports = Race;
 4. Added Mongoose schema for unit.js
 
 ```js
+// models/unit.js
+var mongoose = require('mongoose'),
+  ObjectId = mongoose.Schema.ObjectId;
 
-// code sample
+var schema = new mongoose.Schema({
+  name: { type: String, required: true },
+  description: { type: String },
+  imageUrl: { type: String, required: true },
+  type: { type: String, required: true },
+  cost: {
+    gas: { type: Number, required: true },
+    mineral: { type: Number, required: true },
+    supply: { type: Number, required: true }
+  },
+  race: { type: ObjectId, required: true }
+});
+
+var Unit = mongoose.model('Unit', schema);
+
+module.exports = Unit;
 
 ```
 
 ## Seed Data
 
-1. Step one
+```js
+// seedRaces.js
+require('dotenv').config({ silent: true });
+
+var mongoose = require('mongoose');
+mongoose.connect(process.env.STARCRAFT_DB_CONN);
+
+var Race = require('./models/race');
+
+var raceData = [
+  { name: 'Terran' },
+  { name: 'Zerg' },
+  { name: 'Protoss' }
+];
+
+Race.create(raceData, function(err, races) {
+  if (err) {
+    console.log('Database Error: ', err);
+  }
+
+  console.log('Races inserted: ', races);
+  process.exit();
+});
+
+```
+
+> TODO: Combine these together, and use the Race Id's generated from creating races instead of hardcoding those values
+
+```
+$ node seedRaces.js
+```
+
+```js
+// seedUnits.js
+require('dotenv').config({ silent: true });
+
+var mongoose = require('mongoose');
+mongoose.connect(process.env.STARCRAFT_DB_CONN);
+
+var Unit = require('./models/unit');
+
+var unitData = [
+  {
+    name: 'Marine',
+    description: 'The basic terran infantry, able to upgrade hit points with a shield.',
+    imageUrl: 'http://vignette1.wikia.nocookie.net/starcraft/images/4/47/Marine_SC2_Icon1.jpg/revision/latest?cb=20160107022344',
+    type: 'ground',
+    vespene: 0,
+    mineral: 50,
+    supply: 1,
+    race: '58dd2fb40414890fd0d31077'
+  },
+  {
+    name: 'Mutalisk',
+    description: 'The basic air offensive unit of the zerg with high movement speed.',
+    imageUrl: 'http://vignette1.wikia.nocookie.net/starcraft/images/f/fd/Icon_Zerg_Mutalisk.jpg/revision/latest?cb=20160106233117',
+    type: 'air',
+    vespene: 100,
+    mineral: 100,
+    supply: 2,
+    race: '58dd2fb40414890fd0d31078'
+  },
+  {
+    name: 'Immortal',
+    description: 'Dragoon-like walker with a strong defense against powerful attacks, but vulnerable to weaker attacks.',
+    imageUrl: 'http://vignette3.wikia.nocookie.net/starcraft/images/c/c1/Icon_Protoss_Immortal.jpg/revision/latest?cb=20160106180358',
+    type: 'ground',
+    vespene: 100,
+    mineral: 250,
+    supply: 4,
+    race: '58dd2fb40414890fd0d31079'
+  }
+];
+
+Unit.remove({}, function(err, removed) {
+  if (err) {
+    console.log('Database Error: ', err);
+  }
+
+  Unit.create(unitData, function(err, units) {
+    if (err) {
+      console.log('Database Error: ', err);
+    }
+
+    console.log('Units inserted: ', units);
+    process.exit();
+  });
+});
+
+```
+
+```
+$ node seedUnits.js
+```
 
 ## Route for Returning All Races
 
@@ -151,9 +263,62 @@ module.exports = Race;
 ## Route for Returning All Units Within a Race
 
 ```js
+// routes/races.js
+var express = require('express');
+var router = express.Router();
 
-// code sample
+var Race = require('../models/race');
+var Unit = require('../models/unit');
 
+router.get('/', function(req, res, next) {
+  Race.find({}, function(err, races) {
+    if (err) {
+      console.log('Database Error:', err);
+    }
+
+    console.log('Races: ', races);
+
+    res.render('races/index', {
+      races: races
+    });
+  });
+});
+
+router.get('/:raceId', function(req, res) {
+  Race.findById(req.params.raceId, function(err, race) {
+    if (err) {
+      console.log('err: ', err);
+    }
+
+    res.render('races/show', {
+      race: race
+    });
+  });
+});
+
+router.get('/:raceId/units', function(req, res) {
+  Unit.find({ race: req.params.raceId }, function(err, units) {
+    if (err) {
+      console.log('Error: ', err);
+    }
+    console.log('Units: ', units);
+
+    res.render('races/units', {
+      units: units
+    });
+  });
+});
+
+router.post('/:raceId/units', function(req, res) {
+  res.send('save a new unit for this race: ' + req.params.raceId);
+  // Redirect to index page for all units
+});
+
+router.get('/:raceId/units/new', function(req, res) {
+  res.send('display the form for adding a new unit');
+});
+
+module.exports = router;
 ```
 
 ## Route for Displaying a Form for Adding a New Unit
