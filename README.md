@@ -22,9 +22,9 @@ SCHEDULE TEMPLATE
 
 ### Week 6 - Group Project Week
 
-Day 1 | Day 2 | Day 3 | Day 4 | Day 5|
------ | ------ | ------ | ------ | ------ | 
-Development | Development | Development | Development | Presentations w/ UXDI
+Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5|
+----- | ----- | ------ | ------ | ------ | ------ | 
+**9:00am <br> 5:00pm** | Development | Development | Development | Development | Presentations w/ UXDI
 
 ### Week 5 - Authentication, Testing
 
