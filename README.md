@@ -37,7 +37,7 @@ Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5|
 **2:00pm <br> 5:00pm** | [Workshop: Auth0](https://github.com/wdi-atx-10/class/tree/master/w05/d01/afternoon) |  [Workshop: API Authentication](https://github.com/wdi-atx-10/class/tree/master/w05/d02/afternoon) | [Workshop: OAuth](https://github.com/wdi-atx-10/class/tree/master/w05/d03/afternoon) | [Testing](https://github.com/wdi-atx-10/class/tree/master/w05/d04/afternoon) | [Group Projects - UXDI Handoff](Link)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
-**Training** | [JWT Intro](https://github.com/wdi-atx-10/jwt) | - | - | - | -
+**Training** | [JWT Intro](https://github.com/wdi-atx-10/jwt) | - | [Codewars 1](https://github.com/wdi-atx-10/codewars-8kata-1) | - | -
 
 ### Week 4 - Node.js, Express, MongoDB
 
