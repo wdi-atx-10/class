@@ -11,7 +11,7 @@ SCHEDULE TEMPLATE
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Morning Exercise 
+**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Recap 
 **10:00am <br> 1:00pm** | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)
 **2:00pm <br> 5:00pm** | [Lesson Name](Link) |  [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link) | [Lesson Name](Link)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
@@ -19,15 +19,35 @@ SCHEDULE TEMPLATE
 **Training** | - | - | - | - | -
 --->
 
-### Week 4 - Node.js, MongoDB
+
+### Week 6 - Group Project Week
+
+Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5|
+----- | ----- | ------ | ------ | ------ | ------ | 
+**9:00am <br> 5:00pm** | Development | Development | Development | Development | Project Presentations w/ UXDI
+
+### Week 5 - Authentication, Testing
+
+[Learning Objectives](./learning-objectives/week5.md)
+
+ Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
+----- | ----- | ------ | ---- | ----- | ---- |
+**9:00am <br> 9:45am** | Homework Review | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Recap 
+**10:00am <br> 1:00pm** | [Website Authentication](https://github.com/wdi-atx-10/class/tree/master/w05/d01/morning) | [API Authentication](https://github.com/wdi-atx-10/class/tree/master/w05/d02/morning) | [OAuth](https://github.com/wdi-atx-10/class/tree/master/w05/d03/morning) | [WebSockets](https://github.com/wdi-atx-10/class/tree/master/w05/d04/morning) | [Group Projects - UXDI Handoff](Link)
+**2:00pm <br> 5:00pm** | [Workshop: Auth0](https://github.com/wdi-atx-10/class/tree/master/w05/d01/afternoon) |  [Workshop: API Authentication](https://github.com/wdi-atx-10/class/tree/master/w05/d02/afternoon) | [Workshop: OAuth](https://github.com/wdi-atx-10/class/tree/master/w05/d03/afternoon) | [Testing](https://github.com/wdi-atx-10/class/tree/master/w05/d04/afternoon) | [Group Projects - UXDI Handoff](Link)  
+**5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
+**5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
+**Training** | [JWT Intro](https://github.com/wdi-atx-10/jwt) | - | [Codewars 1](https://github.com/wdi-atx-10/codewars-8kata-1) | - | -
+
+### Week 4 - Node.js, Express, MongoDB
 
 [Learning Objectives](https://github.com/wdi-atx-10/class/blob/master/learning-objectives/week4.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | [Scrum Intro w/ UXDI](https://github.com/wdi-atx-10/class/tree/master/w04/d01/morning) | Homework Review | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Blog Presentations](./blogging.md) | Weekly Recap 
-**10:00am <br> 1:00pm** | [Scrum Intro w/ UXDI](https://github.com/wdi-atx-10/class/tree/master/w04/d01/morning) | [Express](https://github.com/wdi-atx-10/class/tree/master/w04/d02/morning) | [Mongoose](https://github.com/wdi-atx-10/class/tree/master/w04/d03/morning) | [Workshop - Express / Mongoose](https://github.com/wdi-atx-10/class/tree/master/w04/d04/morning) | [Lab](https://github.com/wdi-atx-10/class/tree/master/w04/d05/)
-**2:00pm <br> 5:00pm** | [How the Web Works](https://github.com/wdi-atx-10/class/tree/master/w04/d01/afternoon) |  [MongoDB / NoSQL](https://github.com/wdi-atx-10/class/tree/master/w04/d02/afternoon) | [Workshop - Express / Mongoose](https://github.com/wdi-atx-10/class/tree/master/w04/d03/afternoon) | [REST API Design](https://github.com/wdi-atx-10/class/tree/master/w04/d04/afternoon) | [Lab](https://github.com/wdi-atx-10/class/tree/master/w04/d05/)  
+**10:00am <br> 1:00pm** | [Scrum Intro w/ UXDI](https://github.com/wdi-atx-10/class/tree/master/w04/d01/morning) | [Express](https://github.com/wdi-atx-10/class/tree/master/w04/d02/morning) | [Mongoose](https://github.com/wdi-atx-10/class/tree/master/w04/d03/morning) | [Workshop - Express / Mongoose](https://github.com/wdi-atx-10/class/tree/master/w04/d04/morning) | [Lab](https://github.com/wdi-atx-10/student-directory-api)
+**2:00pm <br> 5:00pm** | [How the Web Works](https://github.com/wdi-atx-10/class/tree/master/w04/d01/afternoon) |  [MongoDB / NoSQL](https://github.com/wdi-atx-10/class/tree/master/w04/d02/afternoon) | [Workshop - Express / Mongoose](https://github.com/wdi-atx-10/class/tree/master/w04/d03/afternoon) | [REST API Design](https://github.com/wdi-atx-10/class/tree/master/w04/d04/afternoon) | [Lab](https://github.com/wdi-atx-10/student-directory-api)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
 **Training** | [JavaScript Challenges](https://github.com/wdi-atx-10/javascript-challenge-homework) | [Emergency Compliment](https://github.com/wdi-atx-10/emergency_compliment) | [Blogs](https://github.com/wdi-atx-10/class/blob/master/blogging.md) | [Emergency Mongoose Compliment](https://github.com/wdi-atx-10/mongoose_compliment) | -
@@ -45,13 +65,13 @@ SCHEDULE TEMPLATE
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
 **Training** | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project) | [Music Artist OOP](https://github.com/wdi-atx-10/music_artist_oop_relationships) | [Weather App](https://github.com/wdi-atx-10/weatherapp-customization) | [Spotify-Me](https://github.com/wdi-atx-10/spotify-me) | -
 
-### Week 2 - JavaScript Fundamentals
+### Week 2 - JavaScript
 
 [Learning Objectives](./learning-objectives/week2.md)
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | [Moronic Monday](https://docs.google.com/spreadsheets/d/1XbCDlSrpbgk0BjVxJKGJIZGdiyd5I7vHEpPNMF2dBBM/edit) | [Array Practice](https://github.com/wdi-atx-10/class/tree/master/w02/d02/warmup) | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Calculator Hackathon](https://github.com/wdi-atx-10/calculatorhackathon) | Weekly Review  
+**9:00am <br> 9:45am** | [Moronic Monday](https://docs.google.com/spreadsheets/d/1XbCDlSrpbgk0BjVxJKGJIZGdiyd5I7vHEpPNMF2dBBM/edit) | [Array Practice](https://github.com/wdi-atx-10/class/tree/master/w02/d02/warmup) | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Calculator Hackathon](https://github.com/wdi-atx-10/calculatorhackathon) | Weekly Recap  
 **10:00am <br> 1:00pm** | [JS Foundation](./w02/d01/morning) | [JS Functions](./w02/d02/morning) | [jQuery](./w02/d03/morning) | [DOM Manipulation](./w02/d04/morning) | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project)
 **2:00pm <br> 5:00pm** | [JS Flow Control](./w02/d01/afternoon) |  [JS Objects](./w02/d02/afternoon) | [Events](./w02/d03/afternoon) | [Lab - DOM Manipulation](./w02/d04/afternoon) | Unit 1 Project  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
@@ -64,7 +84,7 @@ SCHEDULE TEMPLATE
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | Introductions| [Intro to Blogs](./blogging.md) | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Garnet and Squads Setup](https://garnet.wdidc.org/) | Weekly Review 
+**9:00am <br> 9:45am** | Introductions| [Intro to Blogs](./blogging.md) | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Garnet and Squads Setup](https://garnet.wdidc.org/) | Weekly Recap 
 **10:00am <br> 1:00pm** | [Icebreakers & Installfest](https://github.com/GA-WDI/installfest) | [Git](./w01/d02/morning) | [HTML Forms](./w01/d03/morning) | [Flexbox and the Box Model](./w01/d04/morning) | [Workshop - Advanced CSS](./w01/d05/morning)
 **2:00pm <br> 5:00pm** | [Command Line Interface and Atom IDE](./w01/d01/afternoon) |  [Git(Hub)](./w01/d02/afternoon) | [CSS Foundation](./w01/d03/afternoon) | [CSS Frameworks](./w01/d04/afternoon) | [Workshop - Advanced CSS](./w01/d05/afternoon/front-end-lab)
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
