@@ -73,7 +73,7 @@ Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5|
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | [Moronic Monday](https://docs.google.com/spreadsheets/d/1XbCDlSrpbgk0BjVxJKGJIZGdiyd5I7vHEpPNMF2dBBM/edit) | [Array Practice](https://github.com/wdi-atx-10/class/tree/master/w02/d02/warmup) | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Calculator Hackathon](https://github.com/wdi-atx-10/calculatorhackathon) | Weekly Recap  
-**10:00am <br> 1:00pm** | [JS Foundation](./w02/d01/morning) | [JS Functions](./w02/d02/morning) | [jQuery](./w02/d03/morning) | [DOM Manipulation](./w02/d04/morning) | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project)
+**10:00am <br> 1:00pm** | [JS Intro](./w02/d01/morning) | [JS Functions](./w02/d02/morning) | [jQuery](./w02/d03/morning) | [DOM Manipulation](./w02/d04/morning) | [Unit 1 Project](https://github.com/wdi-atx-10/unit-1-project)
 **2:00pm <br> 5:00pm** | [JS Flow Control](./w02/d01/afternoon) |  [JS Objects](./w02/d02/afternoon) | [Events](./w02/d03/afternoon) | [Lab - DOM Manipulation](./w02/d04/afternoon) | Unit 1 Project  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
