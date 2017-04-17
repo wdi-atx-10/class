@@ -19,7 +19,6 @@
 ### React Intro
 
 * Understand what problem React.js solves
-* Render basic React components using the ReactDOM
 * Understand the concepts of React components, props, and state
 * Understand the concepts of the virtual DOM
 * Use JSX to create a React component
