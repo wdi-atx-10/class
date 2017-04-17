@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>React App</title>
+  </head>
+
+  <body>
+    <div class="App container">
+
+      <!-- Search Bar -->
+      <div class="row">
+        <div class="search-bar">
+          <h1>React YT Search</h1>
+          <input
+            placeholder="Search youtube.."
+            value="Default Search" />
+        </div>
+      </div>
+
+      <div class="row">
+
+        <!-- Video Detail -->
+        <div class="videoDetail col-md-8">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="videoImageUrl"></iframe>
+          </div>
+          <div class="details">
+            <div>Video Title</div>
+            <div>Video Description</div>
+          </div>
+        </div>
+
+        <!-- Video List -->
+        <ul class="col-md-4 list-group">
+          <!-- Video List Item-->
+          <li class="list-group-item">
+            <div class="video-list media">
+              <div class="media-left">
+                <img class="media-object" alt="video thumbnail" src="videoimgsrc"/>
+              </div>
+
+              <div class="media-body">
+                <div class="media-heading">Video Title</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </body>
+</html>
