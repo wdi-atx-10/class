@@ -15,6 +15,7 @@
   - Spread operator
   - Destructured assignment
   - Import and export
+  - Promises
 
 ### React Intro
 
