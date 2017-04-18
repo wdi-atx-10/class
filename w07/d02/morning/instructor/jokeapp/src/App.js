@@ -1,13 +1,27 @@
 import React, { Component } from 'react';
 import './App.css';
 
+class JokeContainer extends Component {
+  constructor(){
+    super();
+    this.state = {
+      jokes: ["Q: What happens to a frog's car when it breaks down? A: It gets toad away.", "Q: What did the duk say when he bought lipstick? A: Put it on my bill.", "Q: How do you count cows? A: With a cowculator."]
+    }
+  }
+  render(){
+    return(
+      <div>
+        <JokeList jokes={this.state.jokes} />
+      </div>
+    );
+  }
+}
 
 class JokeList extends Component {
   render(){
     return(
       <div>
-        <Joke text="joke1"/>
-        <Joke text="joke 2"/>
+        { this.props.jokes.map((jokeString, i) => <Joke key={i} text={jokeString} /> ) }
       </div>
     )
   }
@@ -25,4 +39,4 @@ class Joke extends Component {
 }
 
 
-export default JokeList;
+export default JokeContainer;
