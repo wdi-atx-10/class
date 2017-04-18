@@ -56,11 +56,55 @@ class JokeList extends Component {
 
 
 class Joke extends Component {
+  constructor(){
+    super();
+    this.state = {
+      upvotes: 0
+    }
+  }
+  _upvote(){
+    let currentVotes = this.state.upvotes;
+    this.setState({ upvotes: currentVotes + 1 });
+  }
+  _downvote(){
+    let currentVotes = this.state.upvotes;
+    if (currentVotes > 0){
+      this.setState({upvotes: currentVotes - 1})
+    }
+  }
+
   render(){
     return (
       <div>
         <h3>{this.props.text}</h3>
+        <Upvoter upvote={ this._upvote.bind(this)} />
+        <Downvoter downvote={ this._downvote.bind(this)}/>
+        <p>{this.state.upvotes}</p>
       </div>
+    );
+  }
+}
+
+class Upvoter extends Component{
+  _handleClick(){
+    this.props.upvote();
+  }
+
+  render(){
+    return(
+      <i className="fa fa-thumbs-o-up" onClick={ this._handleClick.bind(this) } > </i>
+    );
+  }
+}
+
+class Downvoter extends Component{
+  _handleClick(){
+    this.props.downvote();
+  }
+
+  render(){
+    return(
+      <i className="fa fa-thumbs-o-down" onClick={ this._handleClick.bind(this) }> </i>
     );
   }
 }
