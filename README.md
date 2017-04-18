@@ -19,7 +19,7 @@ SCHEDULE TEMPLATE
 **Training** | - | - | - | - | -
 --->
 
-### Week 7 - Intro to Front End Frameworks: React
+### Week 7 - Front-end Frameworks: React
 
 [Learning Objectives](./learning-objectives/week7.md)
 
@@ -27,7 +27,7 @@ SCHEDULE TEMPLATE
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Morning Exercise | Weekly Recap 
 **10:00am <br> 1:00pm** | [ES6](https://github.com/wdi-atx-10/class/tree/master/w07/d01/morning) | [Nested Components](https://github.com/wdi-atx-10/class/tree/master/w07/d02/morning) | [React Router](https://github.com/wdi-atx-10/class/tree/master/w07/d03/morning) | [Firebase](https://github.com/wdi-atx-10/class/tree/master/w07/d04/morning) | [Lab](https://github.com/wdi-atx-10/class/tree/master/w07/d05/morning)
-**2:00pm <br> 5:00pm** | [React Intro](https://github.com/wdi-atx-10/class/tree/master/w07/d01/afternoon) |  [React + APIs](https://github.com/wdi-atx-10/class/tree/master/w07/d02/afternoon) | [React Router](https://github.com/wdi-atx-10/class/tree/master/w07/d03/afternoon) | [Firebase Workshop](https://github.com/wdi-atx-10/class/tree/master/w07/d04/afternoon) | [Lab](https://github.com/wdi-atx-10/class/tree/master/w07/d05/afternoon)  
+**2:00pm <br> 5:00pm** | [React Intro](https://github.com/wdi-atx-10/class/tree/master/w07/d01/afternoon) |  [React + APIs](https://github.com/wdi-atx-10/class/tree/master/w07/d02/afternoon) | Mock Interview Practice | [Workshop: Firebase](https://github.com/wdi-atx-10/class/tree/master/w07/d04/afternoon) | [Lab](https://github.com/wdi-atx-10/class/tree/master/w07/d05/afternoon)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
 **Training** | [React Calculator Components](https://github.com/wdi-atx-10/React-Calculator-Components) | - | - | - | -
