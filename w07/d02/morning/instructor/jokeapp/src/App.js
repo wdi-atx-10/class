@@ -11,9 +11,29 @@ class JokeContainer extends Component {
   render(){
     return(
       <div>
+        <JokeForm />
         <JokeList jokes={this.state.jokes} />
       </div>
     );
+  }
+}
+
+class JokeForm extends Component{
+  _handleSubmit(e){
+    e.preventDefault();
+    let newJoke = this.refs.newJokeText.value;
+    // run a new function (addJoke) by passing it to the string to add to our array of jokes in the container
+    this.props.addJoke(newJoke);
+    this.refs.newJokeText.value = '';
+  }
+
+  render(){
+    return(
+      <form onSubmit={ this._handleSubmit.bind(this) }>
+        <input type="text" ref="newJokeText"/>
+        <input type="submit" value="Add New Joke" />
+      </form>
+    )
   }
 }
 
