@@ -30,7 +30,7 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [React Intro](https://github.com/wdi-atx-10/class/tree/master/w07/d01/afternoon) |  [React + APIs](https://github.com/wdi-atx-10/class/tree/master/w07/d02/afternoon) | Mock Interview Practice | [Workshop: Firebase](https://github.com/wdi-atx-10/class/tree/master/w07/d04/afternoon) | [Lab](https://github.com/wdi-atx-10/class/tree/master/w07/d05/afternoon)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
-**Training** | [React Calculator Components](https://github.com/wdi-atx-10/React-Calculator-Components) | - | - | - | -
+**Training** | [React Calculator Components](https://github.com/wdi-atx-10/React-Calculator-Components) | [React Stopwatch](https://github.com/wdi-atx-10/react-stopwatch) | - | - | -
 
 ### Week 6 - Group Project Week
 
