@@ -7,11 +7,18 @@ class JokeContainer extends Component {
     this.state = {
       jokes: ["Q: What happens to a frog's car when it breaks down? A: It gets toad away.", "Q: What did the duk say when he bought lipstick? A: Put it on my bill.", "Q: How do you count cows? A: With a cowculator."]
     }
+    this._addJoke = this._addJoke.bind(this);
   }
+  _addJoke(newJoke){
+    let currentJokes = this.state.jokes;
+    currentJokes.push(newJoke);
+    this.setState({jokes: currentJokes});
+  }
+
   render(){
     return(
       <div>
-        <JokeForm />
+        <JokeForm addJoke={ this._addJoke }/>
         <JokeList jokes={this.state.jokes} />
       </div>
     );
