@@ -2,14 +2,38 @@ import React, { Component } from 'react';
 
 import Meme from './Meme';
 
+import { database, firebaseListToArray } from '../utils/firebase';
+
 class Memes extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      memes: []
+    }
+  }
+
+  componentWillMount() {
+    database.ref('/memes')
+      .on('value', data => {
+          const results = firebaseListToArray(data.val());
+          console.log('memes', results);
+
+          this.setState({
+            memes: results
+          });
+        });
+  }
+
   render() {
+    const memes = this.state.memes.map((meme) => {
+      return <Meme key={ meme.id } imageUrl={ meme.imageUrl } alt="" />;
+    });
+
     return (
       <section>
         <div className="row memes">
-          <Meme imageUrl="https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia2.giphy.com%2Fgifsu%2Fl3fZK9uJpvnAHpo88%2Fgiphy-caption.gif" alt="" />
-          <Meme imageUrl="https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia4.giphy.com%2Fgifsu%2FxTiIzPhBDXgYuUqMq4%2Fgiphy-caption.gif" alt="" />
-          <Meme imageUrl="https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia1.giphy.com%2Fgifsu%2FxTiIzwTEizDaJ0dgQM%2Fgiphy-caption.gif" alt="" />
+          { memes.reverse() }
         </div>
       </section>
     );
