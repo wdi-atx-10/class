@@ -1,0 +1,50 @@
+html {
+  font-family: sans-serif;
+  font-size:16px;
+}
+
+body {
+  padding-top: 1em;
+}
+
+.list-group .list-group-item {
+}
+
+.item-name {
+  font-size:2em;
+}
+
+.list-group .list-group-item .buttons {
+  float:right;
+  cursor:pointer;
+}
+
+.list-group .list-group-item .buttons i {
+  font-size:1.5em;
+}
+
+.list-group .list-group-item .buttons i:hover {
+  color:red;
+}
+
+.grocery-search {
+  margin: 0 auto;
+  padding: 0 1em 1em 1em;
+}
+
+.searchrow {
+  text-align:center;
+}
+
+.item-img {
+  float:left;
+  max-width:100%;
+  max-height:50px;
+  border-radius:10px;
+  border: 3px solid #d9d9d9;
+}
+
+.clearfix {
+  zoom:1;
+  overflow: auto;
+}
