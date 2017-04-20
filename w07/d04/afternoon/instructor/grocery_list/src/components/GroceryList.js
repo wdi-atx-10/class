@@ -10,6 +10,7 @@ class GroceryList extends Component {
           key={item.key}
           keyParam={item.key}
           description={item.description}
+          url={item.imageUrl}
           removeItem={this.props.removeItem}/>
       )
     })
