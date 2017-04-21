@@ -19,7 +19,7 @@ SCHEDULE TEMPLATE
 **Training** | - | - | - | - | -
 --->
 
-### Week 7 - Front-end Frameworks: React
+### Week 7 - React
 
 [Learning Objectives](./learning-objectives/week7.md)
 
