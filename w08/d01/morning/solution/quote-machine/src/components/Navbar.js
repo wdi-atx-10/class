@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './Navbar.css';
 
@@ -14,9 +15,7 @@ class Navbar extends Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="/">
-              Quote Machine
-            </a>
+            <Link className="navbar-brand" to="/">Quote Machine</Link>
           </div>
           <div id="navbar" className="navbar-collapse collapse">
             <ul className="nav navbar-nav navbar-right">
@@ -25,7 +24,7 @@ class Navbar extends Component {
                   <img className="navbar-profile-pic" src="https://cloud.githubusercontent.com/assets/204420/25317997/0acd2d94-284b-11e7-863e-79681639157a.jpg" alt="" /> Cool Guy <span className="caret"></span>
                 </a>
                 <ul className="dropdown-menu">
-                  <li><a href="#">View profile</a></li>
+                  <li><Link to="/profile">View profile</Link></li>
                   <li role="separator" className="divider"></li>
                   <li><a href="#">Log out</a></li>
                 </ul>
