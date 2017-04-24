@@ -60,6 +60,20 @@ blockquote:before {
 
 blockquote p {
   padding-left: 40px;
-  font-size: 210%;
+  font-size: 175%;
   font-family: 'Shadows Into Light', cursive;
+}
+
+blockquote footer {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  margin: 1.4rem 5rem 5rem;
+  color: silver;
+  font-size: 1.4rem;
+}
+footer .heart {
+  color: #cf2e31;
 }
