@@ -11,3 +11,7 @@
   border: 1px solid #ccc;
   border-radius: 15px;
 }
+
+.btn-login {
+  margin-top: 8px;
+}

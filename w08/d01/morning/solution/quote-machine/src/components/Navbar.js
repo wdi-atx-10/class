@@ -3,7 +3,22 @@ import { Link } from 'react-router-dom';
 
 import './Navbar.css';
 
+import LoginButton from './LoginButton';
+import LogoutButton from './LogoutButton';
+
 class Navbar extends Component {
+  sessionButton() {
+    if (!this.props.currentUser ) {
+      return <LoginButton { ...this.props }>Log in</LoginButton>;
+    } else {
+      return (
+        <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <img className="navbar-profile-pic" src={ this.props.currentUser.photoURL } alt="" /> { this.props.currentUser.displayName } <span className="caret"></span>
+        </a>
+      )
+    }
+  }
+
   render() {
     return (
       <nav className="navbar navbar-default navbar-fixed-top">
@@ -20,13 +35,11 @@ class Navbar extends Component {
           <div id="navbar" className="navbar-collapse collapse">
             <ul className="nav navbar-nav navbar-right">
               <li className="dropdown">
-                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <img className="navbar-profile-pic" src="https://cloud.githubusercontent.com/assets/204420/25317997/0acd2d94-284b-11e7-863e-79681639157a.jpg" alt="" /> Cool Guy <span className="caret"></span>
-                </a>
+                { this.sessionButton() }
                 <ul className="dropdown-menu">
                   <li><Link to="/profile">View profile</Link></li>
                   <li role="separator" className="divider"></li>
-                  <li><a href="#">Log out</a></li>
+                  <li><LogoutButton { ...this.props }>Log out</LogoutButton></li>
                 </ul>
               </li>
             </ul>
