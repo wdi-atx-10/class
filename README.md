@@ -24,7 +24,7 @@ SCHEDULE TEMPLATE
 
  Time | Day 1 |  Day 2 | Day 3| Day 4 | Day 5|
 ----- | ----- | ------ | ---- | ----- | ---- |
-**9:00am <br> 9:45am** | Morning Exercise | Morning Exercise | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Angular](https://github.com/wdi-atx-10/class/tree/master/w08/d04/morning) | Weekly Recap 
+**9:00am <br> 9:45am** | Morning Exercise | [Heroku Deployment](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction) | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [Angular](https://github.com/wdi-atx-10/class/tree/master/w08/d04/morning) | Weekly Recap 
 **10:00am <br> 1:00pm** | [React Auth](https://github.com/wdi-atx-10/class/tree/master/w08/d01/morning) | [React Native](https://github.com/wdi-atx-10/class/tree/master/w08/d02/morning) | [Redux](https://github.com/wdi-atx-10/class/tree/master/w08/d03/morning) | [Angular](https://github.com/wdi-atx-10/class/tree/master/w08/d04/morning) | [Group Projects](https://github.com/wdi-atx-10/class/tree/master/w08/d05/morning)
 **2:00pm <br> 5:00pm** | [Workshop: React Auth](https://github.com/wdi-atx-10/class/tree/master/w08/d01/afternoon) |  [Workshop: React Native](https://github.com/wdi-atx-10/class/tree/master/w08/d02/afternoon) | [Workshop: Redux](https://github.com/wdi-atx-10/class/tree/master/w08/d03/afternoon) | Frog Design Tour + Panel | [Group Projects](https://github.com/wdi-atx-10/class/tree/master/w08/d05/afternoon)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
