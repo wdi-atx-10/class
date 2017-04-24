@@ -7,7 +7,7 @@ class Quote extends Component {
     return (
       <div className="row quote">
         <div className="col-md-1 col-sm-1 quote-profile">
-          <img className="quote-profile-pic" src={ this.props.data.user.profile_image } alt="" />
+          <img className="quote-profile-pic" src={ this.props.data.user.photoURL } alt="" />
         </div>
         <div className="col-md-11 col-sm-11 quote-text">
           <blockquote>

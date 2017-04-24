@@ -29,6 +29,10 @@ blockquote:before {
 
 blockquote p {
   padding-left: 40px;
-  font-size: 210%;
+  font-size: 175%;
   font-family: 'Shadows Into Light', cursive;
+}
+
+blockquote footer {
+  margin: 0;
 }

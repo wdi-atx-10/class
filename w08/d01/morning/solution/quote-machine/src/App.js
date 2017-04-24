@@ -9,6 +9,7 @@ import {
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Profile from './components/Profile';
+import Footer from './components/Footer';
 import { firebase, auth } from './utils/firebase';
 
 class App extends Component {
@@ -57,6 +58,8 @@ class App extends Component {
             <Route exact path="/" component={ () => <Home currentUser={ this.state.currentUser } /> } />
             <Route path="/profile" component={ Profile }/>
           </div>
+
+          <Footer />
         </div>
       </Router>
     );

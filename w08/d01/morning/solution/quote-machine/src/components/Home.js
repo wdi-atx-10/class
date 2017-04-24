@@ -9,8 +9,8 @@ class Home extends Component {
       <div className="row">
         {
           (this.props.currentUser) ?
-            <AddQuote /> :
-            <div>Please log in to add a quote</div>
+            <AddQuote { ...this.props } /> :
+            <div>Log in to add a quote</div>
         }
         <Quotes />
       </div>

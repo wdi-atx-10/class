@@ -3,8 +3,6 @@ import { database } from '../utils/firebase';
 
 import './AddQuote.css';
 
-// created: Math.floor(Date.now() / 1000)
-
 class AddQuote extends Component {
   constructor(props) {
     super(props);
@@ -24,6 +22,27 @@ class AddQuote extends Component {
   handleSubmit(e) {
     e.preventDefault();
     console.log('quote: ', this.state.quote, 'author: ', this.state.author);
+
+    if (!this.state.quote || !this.state.author) {
+      // @todo Return error message
+      console.log('Missing data');
+      return;
+    }
+
+    this.ref.push({
+      user: {
+        photoURL: this.props.currentUser.photoURL,
+        displayName: this.props.currentUser.displayName
+      },
+      text: this.state.quote,
+      author: this.state.author,
+      '.priority':  0 - Date.now()
+    });
+
+    this.setState({
+      quote: '',
+      author: ''
+    })
   }
 
   render() {

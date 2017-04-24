@@ -9,7 +9,7 @@ import LogoutButton from './LogoutButton';
 class Navbar extends Component {
   sessionButton() {
     if (!this.props.currentUser ) {
-      return <LoginButton { ...this.props }>Log in</LoginButton>;
+      return <LoginButton { ...this.props }>Log in with GitHub</LoginButton>;
     } else {
       return (
         <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
