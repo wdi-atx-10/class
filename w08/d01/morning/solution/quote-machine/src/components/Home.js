@@ -10,7 +10,7 @@ class Home extends Component {
         {
           (this.props.currentUser) ?
             <AddQuote { ...this.props } /> :
-            <div>Log in to add a quote</div>
+            <section className="col-md-4 col-sm-12 add-quote">Log in to add a quote</section>
         }
         <Quotes />
       </div>

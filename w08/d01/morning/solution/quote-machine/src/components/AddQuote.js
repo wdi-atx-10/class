@@ -23,6 +23,11 @@ class AddQuote extends Component {
     e.preventDefault();
     console.log('quote: ', this.state.quote, 'author: ', this.state.author);
 
+    if (!this.props.currentUser) {
+      // @todo Return error message
+      console.log('User not logged in');
+      return;
+    }
     if (!this.state.quote || !this.state.author) {
       // @todo Return error message
       console.log('Missing data');
@@ -31,11 +36,13 @@ class AddQuote extends Component {
 
     this.ref.push({
       user: {
+        uid: this.props.currentUser.uid,
         photoURL: this.props.currentUser.photoURL,
         displayName: this.props.currentUser.displayName
       },
       text: this.state.quote,
       author: this.state.author,
+      // This allows us to return data in desc order in Firebase
       '.priority':  0 - Date.now()
     });
 
