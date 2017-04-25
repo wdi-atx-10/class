@@ -236,6 +236,7 @@ You should:
 
 <details>
 <summary>Solution:</summary>
+
 ```jsx
 // Row component
 const Row = props => {
@@ -260,6 +261,7 @@ Once you have your initial markup, try adding some inline styles to your `Row` C
 
 <details>
 <summary>Solution:</summary>
+
 ```jsx
 // App Styles
 const styles = StyleSheet.create({
@@ -291,6 +293,7 @@ To do this, we need to define a new style and add tiny bit of UI:
 
 <details>
 <summary>Solution:</summary>
+
 ```jsx
 class ContactList extends Component {
   render() {
@@ -344,6 +347,7 @@ First up, let's focus on creating the necessary UI before we worry about wiring 
 
 <details>
 <summary>Solution:</summary>
+
 ```jsx
 /* after our imports but before our ContactApp definition */
 
@@ -364,6 +368,7 @@ Now we just need to define the styles we're referencing and then render it in th
 
 <details>
 <summary>Solution:</summary>
+
 ```jsx
 // ContactList component
 class ContactList extends Component {
@@ -416,6 +421,7 @@ Ok, so it might seem like there's a lot going on in this step, but this is the s
 
 <details>
 <summary>Solution:</summary>
+
 ```jsx
 // ContactSearch component
 const ContactSearch = props => (
@@ -484,6 +490,7 @@ This is a great sign, that we can proceed to use that input to perform the neces
 
 <details>
 <summary>Solution:</summary>
+
 We added an inline style prop `style={{top:18}}` to the ContactApp's container to help with the list header's display.
 
 ```jsx
