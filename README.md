@@ -29,7 +29,7 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [Workshop: React Auth](https://github.com/wdi-atx-10/class/tree/master/w08/d01/afternoon) |  [Workshop: React Native](https://github.com/wdi-atx-10/class/tree/master/w08/d02/afternoon) | [Workshop: Redux](https://github.com/wdi-atx-10/class/tree/master/w08/d03/afternoon) | Frog Design Tour + Panel | [Group Projects](https://github.com/wdi-atx-10/class/tree/master/w08/d05/afternoon)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
-**Training** | [Install React Native](https://github.com/generalassembly-atx/react-native-setup) | - | - | - | -
+**Training** | [Install React Native](https://github.com/generalassembly-atx/react-native-setup) | [React Redux Reading](https://github.com/wdi-atx-10/react-redux-reading) | - | - | -
 
 ### Week 7 - React
 
