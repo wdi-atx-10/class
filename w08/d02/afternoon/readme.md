@@ -214,12 +214,15 @@ Specifically, let's take that little bit of rendered UI from the `renderRow()` m
 
 <details>
 <summary>Solution:</summary>
+
 ```jsx
 // ContactList
+
 <ListView
   dataSource={this.props.dataSource}
   renderRow={data => <Row contact={data} />} />
 ```
+
 </details>
 
 **Your task is to define our `Row` component**
