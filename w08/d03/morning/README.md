@@ -1,7 +1,5 @@
 # Redux Notes
 
-### Learning Objectives
-
 ## What is Redux?
 
 Redux organizes data in the front-end using three principles.
