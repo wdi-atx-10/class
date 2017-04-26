@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 
-/*Stuff for redux*/
+/* Stuff for redux */
 import {Provider} from 'react-redux';
 import {createStore} from 'redux';
-import rootReducer from './reducers/todo_reducer';
+import rootReducer from './reducers/index';
 
 const store = createStore(rootReducer);
 
