@@ -1,0 +1,12 @@
+<section class="container-fluid">
+  <div class="row">
+    <form name="add-card" id="add-card" ng-submit="cardCtrl.addCard()">
+      <input type="text" name="question" id="question" placeholder="What's your question?" ng-model="cardCtrl.newCard.question">
+    </form>
+    <br>
+    <div class="card">
+      <h4 class="card-title">{{ cardCtrl.newCard.question }}</h4>
+      <h6>Cards Against Assembly</h6>
+    </div>
+  </div>
+</section>

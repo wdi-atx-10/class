@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="CardsAgainstAssembly">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cards Against Assembly™</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+  <script src="/javascripts/app.js"></script>
+  <script src="/javascripts/services/cardService.js"></script>
+  <script src="/javascripts/components/appHeader.js"></script>
+  <script src="/javascripts/components/appFooter.js"></script>
+  <script src="/javascripts/components/navigation.js"></script>
+  <script src="/javascripts/components/cards.js"></script>
+  <script src="/javascripts/components/card.js"></script>
+  <script src="/javascripts/components/newCard.js"></script>
+</head>
+<body>
+  <div class="container">
+    <app-header></app-header>
+    <navigation tab="home"></navigation>
+
+    <div ng-view></div>
+
+    <app-footer made-with="♥︎"></app-footer>
+  </div>
+</body>
+</html>
