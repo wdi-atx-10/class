@@ -22,6 +22,15 @@ Template:
 |  |  |  |  |  |  |  |  |
 --->
 
+## Unit 3
+
+| Squad 1 | Squad 2 | Squad 3 | Squad 4 | Squad 5 | Squad 6 
+| --- | --- | --- | --- | --- | --- | 
+| Melissa | Matthew Tan | Erik | Andrew | Salman | Remington |
+| Jacob | Sam | Rene | Ronak | Charlie | Peter |
+| Tanya | Matthew Heck | Komal | Jon | Juliana | Chris |
+| Sarah | Barbara | Daniel | Rob | | Jorge |
+
 ## Unit 2
 
 | Squad 1 | Squad 2 | Squad 3 | Squad 4 | Squad 5 | Squad 6 | Squad 7 |
