@@ -18,6 +18,14 @@ SCHEDULE TEMPLATE
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
 **Training** | - | - | - | - | -
 --->
+
+### Week 9 - Group Project Week
+
+Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5|
+----- | ----- | ------ | ------ | ------ | ------ | 
+**9:00am <br> 9:15am** | Stand-up | Stand-up | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | Stand-up | Project Presentations
+**9:15am <br> 5:00pm** | Development | Development | Development | Development | Project Presentations
+
 ### Week 8 - React + Angular
 
 [Learning Objectives](./learning-objectives/week8.md)
