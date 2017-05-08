@@ -30,7 +30,7 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [Python Functions](https://github.com/wdi-atx-10/class/tree/master/w10/d01/afternoon) |  [Lesson Name](https://github.com/wdi-atx-10/class/tree/master/w10/d02/afternoon) | [Lesson Name](https://github.com/wdi-atx-10/class/tree/master/w10/d03/afternoon) | [Lesson Name](https://github.com/wdi-atx-10/class/tree/master/w10/d04/afternoon) | [Lesson Name](https://github.com/wdi-atx-10/class/tree/master/w10/d05/afternoon)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
-**Training** | - | - | - | - | -
+**Training** | [Bubble Sort Python](https://github.com/wdi-atx-10/Bubble-Sort) | - | - | - | -
 
 ### Week 9 - Group Project Week
 
