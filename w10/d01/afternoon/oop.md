@@ -166,7 +166,7 @@ Composition involves *using* other classes and modules, rather than relying on i
 
 Composition in Practice
 
-Create a `User` class that accepts a `name` parameter. Use the Dog/Cat objects from class and have the person object hold an array of pets. Users should be able to call a method named `addPet()` to add a single pet, and `getPets()` to retrieve and iterate through all the pets added. Have each animal invoke the `speak()` method as you iterate. 
+Create a `User` class that accepts a `name` parameter. Use the Dog/Cat objects from class and have the person object hold an array of pets. Users should be able to call a method named `addPet()` to add a single pet instance, and `getPets()` to retrieve and iterate through all the pets added. Have each animal invoke the `speak()` method as you iterate. 
 
 
 ## Resources
