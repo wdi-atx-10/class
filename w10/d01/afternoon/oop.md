@@ -72,24 +72,24 @@ print(superman.superpower)
 ### Class Methods
 
 ```python
-class A(object):
+class Parent(object):
   count = 0
   
   def __init__(self):
-    A.count += 1
+    Parent.count += 1
     
   def exclaim(self):
-    print("I'm an A!")
+    print("I'm a proud parent!")
     
   @classmethod
   def kids(cls):
-    print("A has ", cls.count, " objects")
+    print("Parent has ", cls.count, " kids.")
 
-one = A()
-two = A()
-three = A()
-A.kids()
-# A has 3 little objects.
+one = Parent()
+two = Parent()
+three = Parent()
+Parent.kids()
+# Parent has 3 kids.
 ```
 
 ### Private Methods
