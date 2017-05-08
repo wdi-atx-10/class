@@ -46,44 +46,7 @@ For example, it would be better to design a method called `login(accessToken)` t
 
 > Inheriting from nothing creates an old-style class, which has different behaviour to new-style classes. As a general rule, there's no reason to favour old-style classes, so you should always inherit from `object`.
 
-```python
-class Car(object):
-  pass
-
-class Yugo(Car):
-  pass
-  
-give_me_a_car = Car()
-give_me_a_yugo = Yugo()
-```
-
-```python
-class Car(object):
-  def exclaim(self):
-    print("I'm a Car!")
-
-class Yugo(Car):
-  pass
-  
-give_me_a_car = Car()
-give_me_a_yugo = Yugo()
-give_me_a_car.exclaim()
-# I'm a Car!
-give_me_a_yugo.exclaim()
-# I'm a Car!
-```
-
 ### Overriding Methods
-
-```python
-class Car(object):
-  def exclaim(self):
-    print("I'm a Car!")
-
-class Yugo(Car):
-  def exclaim(self):
-    print("I'm a Yugo! Much like a Car, but more Yugo-ish.")
-```
 
 ### Super
 
@@ -120,11 +83,11 @@ class A(object):
     
   @classmethod
   def kids(cls):
-    print("A has", cls.count, "little objects.")
+    print("A has ", cls.count, " objects")
 
-easy_a = A()
-breezy_a = A()
-wheezy_a = A()
+one = A()
+two = A()
+three = A()
 A.kids()
 # A has 3 little objects.
 ```
@@ -198,30 +161,6 @@ Create a new animal object that inherits from the base `Animal` class. This time
 ## Composition 
 
 Composition involves *using* other classes and modules, rather than relying on implicit inheritance. 
-
-```python
-class Bill(object):
-  def __init__(self, description):
-    self.description = description
-
-class Tail(object):
-  def __init__(self, length):
-    self.length = length
-
-class Duck(object):
-  def __init__(self, bill, tail):
-    self.bill = bill
-    self.tail = tail
-    
-  def about(self):
-    print('This duck has a', bill.description, 'bill and a', tail.length, 'tail')
-
-tail = Tail('long')
-bill = Bill('wide orange')
-duck = Duck(bill, tail)
-duck.about()
-# This duck has a wide orange bill and a long tail
-```
 
 ## Exercise 
 
