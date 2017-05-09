@@ -30,7 +30,7 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [Python OOP](https://github.com/wdi-atx-10/class/tree/master/w10/d01/afternoon) |  [Freelancing](https://github.com/wdi-atx-10/class/tree/master/w10/d02/afternoon) | [Relational Data and Joins](https://github.com/wdi-atx-10/class/tree/master/w10/d03/afternoon) | [Workshop: Flask w/ SQL Alchemy](https://github.com/wdi-atx-10/class/tree/master/w10/d04/afternoon) | [Lab](https://github.com/wdi-atx-10/class/tree/master/w10/d05/afternoon)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
-**Training** | [Bubble Sort](https://github.com/wdi-atx-10/Bubble-Sort) | - | - | - | -
+**Training** | [Bubble Sort](https://github.com/wdi-atx-10/Bubble-Sort) | - | [Blogs](./blogging.md) | Portfolios | Portfolios
 
 ### Week 9 - Group Project Week
 
