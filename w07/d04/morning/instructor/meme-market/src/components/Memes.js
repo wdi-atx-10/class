@@ -25,6 +25,10 @@ class Memes extends Component {
         });
   }
 
+  componentWillUnmount() {
+    database.off();
+  }
+
   render() {
     const memes = this.state.memes.map((meme) => {
       return <Meme key={ meme.id } imageUrl={ meme.imageUrl } alt="" />;

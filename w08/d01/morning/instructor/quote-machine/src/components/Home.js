@@ -7,7 +7,7 @@ class Home extends Component {
   render() {
     return (
       <div className="row">
-        <AddQuote />
+        <AddQuote { ...this.props }  />
         <Quotes />
       </div>
     );

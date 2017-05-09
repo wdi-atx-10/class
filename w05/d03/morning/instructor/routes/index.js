@@ -11,7 +11,7 @@ router.get('/callback', function(req, res) {
   var code = req.query.code;
 
   console.log('code: ', code);
-  var reqBody = {
+  var data = {
     client_id: process.env.INSTAGRAM_CLIENT_ID,
     client_secret: process.env.INSTAGRAM_CLIENT_SECRET,
     grant_type: 'authorization_code',
@@ -19,16 +19,21 @@ router.get('/callback', function(req, res) {
     code: code
   };
 
-  request.post({url:'https://api.instagram.com/oauth/access_token', formData: reqBody}, function optionalCallback(err, httpResponse, body) {
-    if (err) {
-      console.error('upload failed:', err);
-    }
-    console.log('response', httpResponse);
-    console.log('body', JSON.parse(body));
-    var body = JSON.parse(body);
+  request.post({
+    url: 'https://api.instagram.com/oauth/access_token',
+    formData: data },
+    function(err, response, body) {
+      if (err) {
+        console.error('Request failed:', err);
+      }
 
-    res.redirect('/?access_token=' + body.access_token);
-  });
+      var body = JSON.parse(body);
+
+      console.log('response', response);
+      console.log('body', body);
+
+      res.redirect('/?access_token=' + body.access_token);
+    });
 });
 
 module.exports = router;
