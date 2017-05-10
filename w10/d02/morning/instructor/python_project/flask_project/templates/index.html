@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Index File</title>
+  </head>
+  <body>
+    <h1>My Template!</h1>
+    <p>Your name is {{ myname }}</p>
+
+    <form method="post" action="/showformdata">
+      <input type="text" name="firstname" placeholder="enter your first name" />
+      <input type="text" name="lastname" placeholder="enter your last name" />
+      <input type="submit" value="Send Data">
+    </form>
+
+    {# A proper Jinja comment!
+      When we want a value: {{ value }}
+      When we want to add logic {% if True: %}
+    #}
+  </body>
+</html>
