@@ -1,5 +1,10 @@
 from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = '%s://%s:%s@%s/%s' % ()
+
+db = SQLAlchemy(app)
 
 @app.route('/', methods=['GET'])
 def index():
