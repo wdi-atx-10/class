@@ -135,7 +135,7 @@ $ psql
 Create a new database
 
 ```
-# CREATE DATABASE starcraft_python
+# CREATE DATABASE starcraft_python;
 ```
 
 Connect to the database
@@ -150,22 +150,89 @@ View the tables and relations. There's nothing there yet, we'll fix that now.
 # \dt
 ```
 
+## Create Our Database User
+
+```
+# CREATE USER starcraft_dev WITH PASSWORD 'starcraftislife';
+```
+
+Check that our user was successfully created with the following command:
+
+```
+# \du
+```
+
+## Add dotenv
+
+Our old friend `dotenv` is back, let's store our configuration values in here so we don't have to hardcode values into our code.
+
+```bash
+$ pip install python-dotenv
+```
+
+Keep our `.env` from being uploaded to GitHub.
+
+```bash
+$ echo '.env' >> .gitignore
+```
+
+Add the database configuration values for our development server in the root of your application.
+
+```
+# .env
+DB_DRIVER=postgresql
+DB_HOST=localhost
+DB_USER=starcraft_dev
+DB_PASSWORD=starcraftislife
+DB_NAME=starcraft_python
+```
+
+The top of our `main.py` file will need the following code snippet to load the `.env` file and configuration values:
+
+```python
+# main.py
+
+# ...
+import os
+from os.path import join, dirname
+from dotenv import load_dotenv
+
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
+# ...
+```
+
 ## Add SQL Alchemy
 
 ```bash
 $ pip install flask-sqlalchemy
 ```
 
-The top of our `main.py` file will now look like this:
+After adding SQL Alchemy and dotenv, the top of our `main.py` file will now look like this:
 
 ```python
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
+import os
+from os.path import join, dirname
+from dotenv import load_dotenv
+
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
+
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://dirkdunn1:abc123@localhost/flaskmovie'
+app.config['SQLALCHEMY_DATABASE_URI'] = '%s://%s:%s@%s/%s' % (os.environ.get('DB_DRIVER'), os.environ.get('DB_USER'), os.environ.get('DB_PASSWORD'), os.environ.get('DB_HOST'), os.environ.get('DB_NAME'))
 
 db = SQLAlchemy(app)
+```
+
+## Saving Our Dependencies
+
+We've now installed everything we need to for this application. Let's go ahead and save these dependencies for other developers that will need to know what they are in the future.
+
+```bash
+$ pip freeze > requirements.txt
 ```
 
 ## Create Models
