@@ -70,6 +70,7 @@ $ flask run
 GET /races
 GET /races/<race_name>
 GET /races/<race_name>/units
+POST /races/<race_name>/units
 GET /races/<race_name>/units/<unit_id>
 ```
 
@@ -90,9 +91,12 @@ def races():
 def races_name(race_name):
     return '/races/%s' % race_name
 
-@app.route('/races/<race_name>/units', methods=['GET'])
+@app.route('/races/<race_name>/units', methods=['GET', 'POST'])
 def races_units(race_name):
-    return '/races/%s/units' % race_name
+    if request.method == 'POST':
+        return 'Save new unit for %s' % race_name
+    else:
+        return '/races/%s/units' % race_name    
 
 @app.route('/races/<race_name>/units/<int:unit_id>', methods=['GET'])
 def races_unit_id(race_name, unit_id):
