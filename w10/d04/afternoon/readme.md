@@ -243,6 +243,7 @@ from models.shared import db
 import datetime
 
 class Race(db.Model):
+    __tablename__ = 'races'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), unique=True, nullable=False)
     description = db.Column(db.Text)
@@ -263,6 +264,7 @@ from models.shared import db
 import datetime
 
 class Unit(db.Model):
+    __tablename__ = 'units'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), unique=True, nullable=False)
     description = db.Column(db.Text)
@@ -293,6 +295,7 @@ from models.shared import db
 import datetime
 
 class RaceUnit(db.Model):
+    __tablename__ = 'race_units'
     race_id = db.Column(db.Integer, db.ForeignKey('races.id'), primary_key=True)
     unit_id = db.Column(db.Integer, db.ForeignKey('units.id'), primary_key=True)
     created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow, nullable=False)

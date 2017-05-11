@@ -2,6 +2,7 @@ from models.shared import db
 import datetime
 
 class RaceUnit(db.Model):
+    __tablename__ = 'race_units'
     race_id = db.Column(db.Integer, db.ForeignKey('races.id'), primary_key=True)
     unit_id = db.Column(db.Integer, db.ForeignKey('units.id'), primary_key=True)
     created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow, nullable=False)
