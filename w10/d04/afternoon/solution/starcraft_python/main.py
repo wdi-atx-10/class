@@ -18,6 +18,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = '%s://%s:%s@%s/%s' % (os.environ.get('DB
 
 db.app = app
 db.init_app(app)
+# Create tables if they don't already exist
 db.create_all()
 
 @app.route('/', methods=['GET'])

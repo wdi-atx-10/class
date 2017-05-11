@@ -230,11 +230,19 @@ Your directory structure should look similar to the following now:
 ├── main.py
 ├── models
 │   ├── __init__.py
+│   ├── shared.py
 │   ├── race.py
 │   ├── race_unit.py
 │   └── unit.py
 ├── requirements.txt
 ├── .env
+```
+
+```python
+# models/shared.py
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy()
 ```
 
 ```python
@@ -334,4 +342,12 @@ app.config['SQLALCHEMY_DATABASE_URI'] = '%s://%s:%s@%s/%s' % (os.environ.get('DB
 db.app = app
 db.init_app(app)
 db.create_all()
+```
+
+## Seed Data
+
+Included is a seed file that we can run to optionally populate our database with some sample values.
+
+```bash
+$ python seed.py
 ```
