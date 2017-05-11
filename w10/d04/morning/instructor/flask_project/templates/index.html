@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The POS app (Python-Postgre Obviously Super-awesome CRUD app)</title>
+  </head>
+  <body>
+    <h1>The POS app (Python-Postgre Obviously Super-awesome CRUD app)</h1>
+
+    <ul class="users">
+      {% for user in users: %}
+        <li>{{ user.username }} - {{ user.email }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3>Add User:</h3>
+    <form action="/add_user" method="post">
+      <input name="username" type="text" placeholder="enter username.." />
+      <input name="email" type="text" placeholder="enter email.." />
+      <input type="submit" value="Add User" />
+    </form>
+
+    <h3>Delete User:</h3>
+    <form action="/remove_user" method="post">
+      <input type="text" name="username_delete" placeholder="user to delete.."/>
+      <input type="submit" value="Remove User" />
+    </form>
+
+    <h3>Update User:</h3>
+    <form action="/update_user" method="post">
+      <input type="text" name="user_update" placeholder="user to update.."/>
+      <input type="text" name="new_username" placeholder="new username.."/>
+      <input type="text" name="new_email" placeholder="new email.." />
+      <input type="submit" value="Update User"/>
+    </form>
+
+  </body>
+</html>
