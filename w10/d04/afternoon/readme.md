@@ -30,13 +30,13 @@ $ pip install Flask
 Create our application file
 
 ```bash
-$ touch index.py && atom index.py
+$ touch main.py && atom main.py
 ```
 
 Add our Flask initialization code
 
 ```python  
-# index.py
+# main.py
 from flask import Flask
 app = Flask(__name__)
 
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 Run the development server
 
 ```bash
-$ export FLASK_APP=index.py
+$ export FLASK_APP=main.py
 $ export FLASK_DEBUG=1
 $ flask run
  * Serving Flask app "app"
@@ -76,7 +76,7 @@ GET /units/<unit_id>
 ```
 
 ```python
-# index.py
+# main.py
 from flask import Flask
 app = Flask(__name__)
 
@@ -114,13 +114,13 @@ if __name__ == '__main__':
 
 ## ERD's
 
-Our first attempt at the designing a schema for our database.
+Below might be our first attempt at designing a schema for our database.
 
 ![StarCraft ERD 1](./assets/starcraft_erd_1.png)
 
-We realize we have a problem, one of our heroes named Kerrigan was originally a member of the Terrans but now is loyal to Zergs. We should reflect that she's a part of both. 
+Thinking through the units though, we realize we have a problem. One of the heroes in StarCraft named Kerrigan was originally a member of the Terrans but is now loyal to Zergs. We should reflect that she could be considered a member of both.
 
-What we need is a link or join table, to allow for the same unit to be associated with multiple races.
+What we need is a link or join table, to allow for the same unit to be associated with multiple races. Since there should never be multiple instances of a `race_id` being paired with a `unit_id`, we could create a composite key using both.
 
 ![StarCraft ERD 2](./assets/starcraft_erd_2.png)
 
@@ -144,8 +144,29 @@ Connect to the database
 # \c starcraft_python
 ```
 
-## Install SQL Alchemy
+View the tables and relations. There's nothing there yet, we'll fix that now.
 
+```
+# \dt
+```
+
+## Add SQL Alchemy
+
+```bash
+$ pip install flask-sqlalchemy
+```
+
+The top of our `main.py` file will now look like this:
+
+```python
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://dirkdunn1:abc123@localhost/flaskmovie'
+
+db = SQLAlchemy(app)
+```
 
 ## Create Models
 
