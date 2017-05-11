@@ -206,25 +206,7 @@ load_dotenv(dotenv_path)
 
 ```bash
 $ pip install flask-sqlalchemy
-```
-
-After adding SQL Alchemy and dotenv, the top of our `main.py` file will now look like this:
-
-```python
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-
-import os
-from os.path import join, dirname
-from dotenv import load_dotenv
-
-dotenv_path = join(dirname(__file__), '.env')
-load_dotenv(dotenv_path)
-
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = '%s://%s:%s@%s/%s' % (os.environ.get('DB_DRIVER'), os.environ.get('DB_USER'), os.environ.get('DB_PASSWORD'), os.environ.get('DB_HOST'), os.environ.get('DB_NAME'))
-
-db = SQLAlchemy(app)
+$ pip install psycopg2
 ```
 
 ## Saving Our Dependencies
@@ -237,8 +219,116 @@ $ pip freeze > requirements.txt
 
 ## Create Models
 
+Create a models folder that we can leverage as a package within our code.
 
-## Seed Data
+Within the models folder, create an empty `__init__.py` file, and the following models as well: `race.py`, `unit.py`, `race_unit.py`
 
+Your directory structure should look similar to the following now:
 
-## Test Our API
+```
+.
+├── main.py
+├── models
+│   ├── __init__.py
+│   ├── race.py
+│   ├── race_unit.py
+│   └── unit.py
+├── requirements.txt
+├── .env
+```
+
+```python
+# models/race.py
+from models.shared import db
+import datetime
+
+class Race(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), unique=True, nullable=False)
+    description = db.Column(db.Text)
+    created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow, nullable=False)
+    updated_at = db.Column(db.DateTime)
+
+    def __init__(self, name, description):
+        self.name = name
+        self.description = description
+
+    def __repr__(self):
+        return '<Race %r>' % self.name
+```
+
+```python
+# models/unit.py
+from models.shared import db
+import datetime
+
+class Unit(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), unique=True, nullable=False)
+    description = db.Column(db.Text)
+    mineral_cost = db.Column(db.Integer)
+    vespene_cost = db.Column(db.Integer)
+    supply_cost = db.Column(db.Integer)
+    build_time = db.Column(db.Integer)
+    created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow, nullable=False)
+    updated_at = db.Column(db.DateTime)
+
+    def __init__(self, name, description, mineral_cost, vespene_cost, supply_cost, build_time):
+        self.name = name
+        self.description = description
+        self.mineral_cost = mineral_cost
+        self.vespene_cost = vespene_cost
+        self.supply_cost = supply_cost
+        self.build_time = build_time
+
+    def __repr__(self):
+        return '<Unit %r>' % self.name
+```
+
+Note the foreign keys, which ensure that we don't have orphaned records from someone accidentally deleting a record that's still referenced from the race or unit tables.
+
+```python
+# models/race_unit
+from models.shared import db
+import datetime
+
+class RaceUnit(db.Model):
+    race_id = db.Column(db.Integer, db.ForeignKey('races.id'), primary_key=True)
+    unit_id = db.Column(db.Integer, db.ForeignKey('units.id'), primary_key=True)
+    created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow, nullable=False)
+    updated_at = db.Column(db.DateTime)
+
+    def __init__(self, race_id, unit_id):
+        self.race_id = race_id
+        self.unit_id = unit_id
+
+    def __repr__(self):
+        return '<RaceUnit race:%i unit:%i>' % (self.race_id, self.unit_id)
+```
+
+After adding SQL Alchemy and dotenv, the top of our `main.py` file will now look like this:
+
+```python
+# main.py
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+
+import os
+from os.path import join, dirname
+from dotenv import load_dotenv
+
+from models.shared import db
+from models.race import Race
+from models.unit import Unit
+from models.race_unit import RaceUnit
+
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = '%s://%s:%s@%s/%s' % (os.environ.get('DB_DRIVER'), os.environ.get('DB_USER'), os.environ.get('DB_PASSWORD'), os.environ.get('DB_HOST'), os.environ.get('DB_NAME'))
+
+db.app = app
+db.init_app(app)
+db.create_all()
+```
