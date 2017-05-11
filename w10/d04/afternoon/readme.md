@@ -1,7 +1,5 @@
 # StarCraft: Python Expansion
 
-## What Are We Building?
-
 Today we'll be building an API for the greatest game ever created: [StarCraft](https://starcraft.com).
 
 ## Set Up Our Environment
@@ -32,25 +30,29 @@ $ pip install Flask
 Create our application file
 
 ```bash
-$ touch app.py && atom app.py
+$ touch index.py && atom index.py
 ```
 
 Add our Flask initialization code
 
 ```python  
-# app.py
+# index.py
 from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
 def index():
     return 'StarCraft: Python Extension'
+
+# If this file is being run directly, then start Flask
+if __name__ == '__main__':
+    app.run(debug=True)
 ```
 
 Run the development server
 
 ```bash
-$ export FLASK_APP=app.py
+$ export FLASK_APP=index.py
 $ export FLASK_DEBUG=1
 $ flask run
  * Serving Flask app "app"
@@ -69,6 +71,36 @@ GET /races
 GET /races/<race_name>
 GET /races/<race_name>/units
 GET /races/<race_name>/units/<unit_id>
+```
+
+```python
+# index.py
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/', methods=['GET'])
+def index():
+    return 'StarCraft: Python Extension'
+
+@app.route('/races', methods=['GET'])
+def races():
+    return '/races'
+
+@app.route('/races/<race_name>', methods=['GET'])
+def races_name(race_name):
+    return '/races/%s' % race_name
+
+@app.route('/races/<race_name>/units', methods=['GET'])
+def races_units(race_name):
+    return '/races/%s/units' % race_name
+
+@app.route('/races/<race_name>/units/<int:unit_id>', methods=['GET'])
+def races_unit_id(race_name, unit_id):
+    return '/races/%s/units/%i' % (race_name, unit_id)
+
+# If this file is being run directly, then start Flask
+if __name__ == '__main__':
+    app.run(debug=True)
 ```
 
 ## ERD's
