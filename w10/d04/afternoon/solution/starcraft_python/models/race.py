@@ -13,5 +13,5 @@ class Race(db.Model):
         self.name = name
         self.description = description
 
-    def __repr__(self):
-        return '<Race %r>' % self.name
+    # def __repr__(self):
+    #     return '<Race %r>' % self.name

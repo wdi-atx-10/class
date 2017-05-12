@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify, Response
 from flask_sqlalchemy import SQLAlchemy
 
 import os
@@ -9,6 +9,8 @@ from models.shared import db
 from models.race import Race
 from models.unit import Unit
 from models.race_unit import RaceUnit
+
+import json
 
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
@@ -27,7 +29,22 @@ def index():
 
 @app.route('/races', methods=['GET'])
 def races():
-    return 'List all races'
+    # races = Race.query.all()
+    # print races
+
+    return jsonify(json_list=[race.serialize for race in Race.query.all()])
+    # return jsonify(json.dumps([race.serialize for race in Race.query.all()]))
+
+    # races_out = []
+    # for race in races:
+    #     print race
+    #     races_out.append(dict(race))
+
+    # resp = jsonify(json.dumps(races))
+    # print resp
+
+
+    # return Response(json.dumps(races_out), mimetype='application/json')
 
 @app.route('/races/<race_name>', methods=['GET'])
 def races_name(race_name):
