@@ -19,7 +19,7 @@ SCHEDULE TEMPLATE
 **Training** | - | - | - | - | -
 --->
 
-### Week 11 - Secondary Languages/ Interview Prep
+### Week 11 - Interview Prep & Course Wrap-up
 
 [Learning Objectives](./learning-objectives/week11.md)
 
@@ -27,7 +27,7 @@ SCHEDULE TEMPLATE
 ----- | ----- | ------ | ---- | ----- | ---- |
 **9:00am <br> 9:45am** | [Technical Interview Practice](http://codepen.io/anon/pen/YwxgvW?editors=0010) | [Introduction to AWS](https://aws.amazon.com/) | [Outcomes](https://docs.google.com/document/d/1KQ1WZfj_0IWo6Ja0lF4uIleoavEzz_NT5KIOraOwtJk/edit) | [IBM: Bluemix Signup](https://www.ibm.com/cloud-computing/bluemix/) | Weekly Recap 
 **10:00am <br> 1:00pm** | Technical Interview Practice | [Alexa with AWS](Link) | [Portfolio Presentations](Link) | [IBM: Cloud Native Applications + Microservices](Link) | [Final Projects](Link)
-**2:00pm <br> 5:00pm** | [SCSS / Gulp](Link) |  [Technical Interview Practice](Link) | [Course Wrap Up](Link) | [IBM: Watson Services + Carbon Design System](Link) | [Final Projects](Link)  
+**2:00pm <br> 5:00pm** | [SCSS / Gulp](Link) |  [Technical Interview Practice](Link) | [Course Wrap-up](Link) | [IBM: Watson Services + Carbon Design System](Link) | [Final Projects](Link)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
 **Training** | Portfolios | Portfolios | Portfolios | - | -
