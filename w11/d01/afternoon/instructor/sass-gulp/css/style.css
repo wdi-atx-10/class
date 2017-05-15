@@ -1,0 +1,42 @@
+body {
+  background: #eeeeee;
+  font-family: Helvetica, sans-serif; }
+
+h1 {
+  color: blue; }
+
+nav ul li {
+  color: #FFAAA4; }
+
+nav ul a {
+  color: #FFAAA4;
+  text-decoration: none; }
+  nav ul a.odd {
+    color: green; }
+
+ul li {
+  color: #0A785F; }
+
+.button {
+  font: 20px Helvetica, sans-serif;
+  border: 1px solid #55ACEE;
+  background-color: #02213E;
+  color: white;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px; }
+
+.message, .success, .warning, .error {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  color: green; }
+
+.warning {
+  color: yellow; }
+
+.error {
+  color: red; }

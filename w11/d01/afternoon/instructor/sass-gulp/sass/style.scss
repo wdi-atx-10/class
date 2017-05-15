@@ -1,0 +1,74 @@
+$nav-link-color: #FFAAA4;
+$food-list-color: #0A785F;
+$font-stack: Helvetica, sans-serif;
+
+body{
+  background: #eeeeee;
+  font-family: $font-stack;
+}
+
+h1{
+  color: blue;
+}
+
+nav {
+  ul{
+    li{
+      color: $nav-link-color;
+    }
+    a{
+      color: $nav-link-color;
+      text-decoration: none;
+      &.odd{
+        color: green;
+      }
+    }
+  }
+}
+
+ul{
+  li{
+    color: $food-list-color;
+  }
+}
+$radius: 5px;
+
+@mixin border-radius($radius){
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+}
+
+@mixin button{
+  font: 20px $font-stack;
+  border: 1px solid #55ACEE;
+  background-color: #02213E;
+  color: white;
+  @include border-radius(2px);
+}
+
+.button{
+  @include button;
+}
+
+.message{
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success{
+  @extend .message;
+  color: green;
+}
+
+.warning{
+  @extend .message;
+  color: yellow;
+}
+
+.error{
+  @extend .message;
+  color: red;
+}
