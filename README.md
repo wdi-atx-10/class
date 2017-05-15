@@ -30,7 +30,7 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [SCSS / Gulp](Link) |  [Technical Interview Practice](Link) | [Course Wrap Up](Link) | [IBM: Watson Services + Carbon Design System](Link) | [Final Projects](Link)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
-**Training** | Portfolios | Portfolios | Portfolios | Portfolios | -
+**Training** | Portfolios | Portfolios | Portfolios | - | -
 
 ### Week 10 - Python
 
