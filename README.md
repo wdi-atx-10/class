@@ -30,7 +30,7 @@ SCHEDULE TEMPLATE
 **2:00pm <br> 5:00pm** | [SCSS / Gulp](https://github.com/wdi-atx-10/class/tree/master/w11/d01/afternoon) |  [Technical Interview Practice](https://github.com/wdi-atx-10/class/tree/master/w11/d02/afternoon) | [Course Wrap-up](https://github.com/wdi-atx-10/class/tree/master/w11/d03/afternoon) | [IBM: Watson Services + Carbon Design System](https://github.com/wdi-atx-10/class/tree/master/w11/d04/afternoon) | [Final Projects](https://github.com/wdi-atx-10/class/tree/master/w11/d05/afternoon)  
 **5:00pm <br> 5:30pm** | [Office Hours](./office-hours.md) | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | [Office Hours](./office-hours.md) | - 
 **5:30pm <br> 6:00pm** | - | [General Review](./office-hours.md#general-review) | [Homework Feedback / Review](./office-hours.md#homework-feedback) | - | - 
-**Training** | Portfolios | Portfolios | Portfolios | - | -
+**Training** | Portfolios | Portfolios | - | - | -
 
 ### Week 10 - Python
 
