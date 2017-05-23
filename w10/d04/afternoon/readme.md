@@ -116,7 +116,7 @@ if __name__ == '__main__':
 
 Below might be our first attempt at designing a schema for our database.
 
-![StarCraft ERD 1](./assets/starcraft_erd_1.png)
+![StarCraft ERD 1](./assets/starcraft_erd_1.edit.png)
 
 Thinking through the units though, we realize we have a problem. One of the heroes in StarCraft named Kerrigan was originally a member of the Terrans but is now loyal to Zergs. We should reflect that she could be considered a member of both.
 
