@@ -37,6 +37,15 @@
 
 ### React Router
 
+- Understand what `this.props.children` does and why we would use it
+- Understand what React Router does and why we would use it
+- history: browserHistory vs. hashHistory
+  - use hashHistory bc server routing could be different so when in doubt, use hashHistory
+- Routes
+- Create Nested Routes - IndexRoute
+- Use `Link` + `IndexLink` components
+- Implement `activeClassName`
+
 ### Firebase 
 
 - Explain the pros and cons of using Firebase as opposed to rolling out our own 
