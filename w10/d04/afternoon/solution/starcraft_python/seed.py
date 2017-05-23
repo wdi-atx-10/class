@@ -7,7 +7,6 @@ import os
 from os.path import join, dirname
 from dotenv import load_dotenv
 
-from models.shared import db
 from models.race import Race
 from models.unit import Unit
 from models.race_unit import RaceUnit
@@ -139,12 +138,16 @@ race_units = {
 
 for race in race_units:
     race_id = race_ids[race]
-    
-    for unit in race_units[race]:
-        new_unit = Unit(name=unit['name'], description=unit['description'], mineral_cost=unit['mineral_cost'], vespene_cost=unit['vespene_cost'], supply_cost=unit['supply_cost'], build_time=unit['build_time'])
-        session.add(new_unit)
-        session.commit()
 
-        new_race_unit = RaceUnit(race_id=race_id, unit_id=new_unit.id)
-        session.add(new_race_unit)
-        session.commit()
+    for unit in race_units[race]:
+        try:
+            new_unit = Unit(name=unit['name'], description=unit['description'], mineral_cost=unit['mineral_cost'], vespene_cost=unit['vespene_cost'], supply_cost=unit['supply_cost'], build_time=unit['build_time'])
+            session.add(new_unit)
+            session.commit()
+
+            new_race_unit = RaceUnit(race_id=race_id, unit_id=new_unit.id)
+            session.add(new_race_unit)
+            session.commit()
+        except:
+            session.rollback()
+            raise
