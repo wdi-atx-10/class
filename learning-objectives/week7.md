@@ -28,6 +28,13 @@
 
 ### Nested Components
 
+* Differentiate between Object-Oriented Programming and Functional Programming paradigms
+* Explain how React incorporates principles of Functional Programming
+* Describe best practices in creating react components
+* Identify state in a React app
+* Define the role of Container components and when to use them
+* Explain the ways to add styles to a React app
+
 ### React + API's
 - Make ajax requests in React.js with axios
 - Use dynamic data inside of a react application (setting state)
