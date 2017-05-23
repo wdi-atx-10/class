@@ -28,6 +28,13 @@
 
 ### Nested Components
 
+* Differentiate between Object-Oriented Programming and Functional Programming paradigms
+* Explain how React incorporates principles of Functional Programming
+* Describe best practices in creating react components
+* Identify state in a React app
+* Define the role of Container components and when to use them
+* Explain the ways to add styles to a React app
+
 ### React + API's
 - Make ajax requests in React.js with axios
 - Use dynamic data inside of a react application (setting state)
@@ -36,6 +43,15 @@
 - Use the Youtube API
 
 ### React Router
+
+- Understand what `this.props.children` does and why we would use it
+- Understand what React Router does and why we would use it
+- history: browserHistory vs. hashHistory
+  - use hashHistory bc server routing could be different so when in doubt, use hashHistory
+- Routes
+- Create Nested Routes - IndexRoute
+- Use `Link` + `IndexLink` components
+- Implement `activeClassName`
 
 ### Firebase 
 
