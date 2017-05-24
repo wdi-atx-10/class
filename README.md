@@ -19,6 +19,8 @@ SCHEDULE TEMPLATE
 **Training** | - | - | - | - | -
 --->
 
+
+
 ### Week 11 - Interview Prep & Course Wrap-up
 
 [Learning Objectives](./learning-objectives/week11.md)
