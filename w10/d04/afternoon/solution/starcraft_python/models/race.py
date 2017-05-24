@@ -3,8 +3,8 @@ from models.unit import Unit
 import datetime
 
 race_units = db.Table('race_units',
-    db.Column('race_id', db.Integer, db.ForeignKey('races.id')),
-    db.Column('unit_id', db.Integer, db.ForeignKey('units.id'))
+    db.Column('race_id', db.Integer, db.ForeignKey('races.id'), primary_key=True),
+    db.Column('unit_id', db.Integer, db.ForeignKey('units.id'), primary_key=True)
 )
 
 class Race(db.Model):

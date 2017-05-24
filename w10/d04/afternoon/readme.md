@@ -380,7 +380,7 @@ from dotenv import load_dotenv
 from models.shared import db
 from models.race import Race
 from models.unit import Unit
-from models.race_unit import RaceUnit
+#from models.race_unit import RaceUnit
 
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
@@ -417,7 +417,7 @@ from dotenv import load_dotenv
 from models.shared import db
 from models.race import Race
 from models.unit import Unit
-from models.race_unit import RaceUnit
+#from models.race_unit import RaceUnit
 
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
