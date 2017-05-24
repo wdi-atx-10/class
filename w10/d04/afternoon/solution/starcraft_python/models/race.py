@@ -1,6 +1,5 @@
 from models.shared import db, dump_datetime
 from models.unit import Unit
-# from models.race_unit import race_unit
 import datetime
 
 race_units = db.Table('race_units',
@@ -15,6 +14,7 @@ class Race(db.Model):
     description = db.Column(db.Text)
     created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow, nullable=False)
     updated_at = db.Column(db.DateTime)
+    # This is the connection for many to many relationship between race and units
     units = db.relationship('Unit', secondary=race_units,
         backref=db.backref('race', lazy='dynamic'))
 

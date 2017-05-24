@@ -254,15 +254,24 @@ def dump_datetime(value):
 ```python
 # models/race.py
 from models.shared import db, dump_datetime
+from models.unit import Unit
 import datetime
 
+race_units = db.Table('race_units',
+    db.Column('race_id', db.Integer, db.ForeignKey('races.id')),
+    db.Column('unit_id', db.Integer, db.ForeignKey('units.id'))
+)
+
 class Race(db.Model):
-  __tablename__ = 'races'
+    __tablename__ = 'races'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), unique=True, nullable=False)
     description = db.Column(db.Text)
     created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow, nullable=False)
     updated_at = db.Column(db.DateTime)
+    # This is the connection for many to many relationship between race and units
+    units = db.relationship('Unit', secondary=race_units,
+        backref=db.backref('race', lazy='dynamic'))
 
     def __init__(self, name, description):
         self.name = name
@@ -275,6 +284,7 @@ class Race(db.Model):
            'id'         : self.id,
            'name'       : self.name,
            'description': self.description,
+           'units'      : self.units,
            'created_at' : dump_datetime(self.created_at)
        }
 
@@ -310,7 +320,16 @@ class Unit(db.Model):
     @property
     def serialize(self):
        """Return object data in easily serializable format"""
-
+       return {
+           'id'             : self.id,
+           'name'           : self.name,
+           'description'    : self.description,
+           'mineral_cost'   : self.mineral_cost,
+           'vespene_cost'   : self.vespene_cost,
+           'supply_cost'    : self.supply_cost,
+           'build_time'     : self.build_time,
+           'created_at'     : dump_datetime(self.created_at)
+       }
 
     def __repr__(self):
         return '<Unit %r>' % self.name
@@ -333,6 +352,15 @@ class RaceUnit(db.Model):
     def __init__(self, race_id, unit_id):
         self.race_id = race_id
         self.unit_id = unit_id
+
+    @property
+    def serialize(self):
+       """Return object data in easily serializable format"""
+       return {
+           'race_id'    : self.race_id,
+           'unit_id'    : self.unit_id,
+           'created_at' : dump_datetime(self.created_at)
+       }
 
     def __repr__(self):
         return '<RaceUnit race:%i unit:%i>' % (self.race_id, self.unit_id)
@@ -362,6 +390,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = '%s://%s:%s@%s/%s' % (os.environ.get('DB
 
 db.app = app
 db.init_app(app)
+# Create tables if they don't already exist
 db.create_all()
 ```
 
@@ -371,4 +400,76 @@ Included is a seed file that we can run to optionally populate our database with
 
 ```bash
 $ python seed.py
+```
+
+## Completing Our Routes
+
+> TODO Need to write out steps and how different pieces fit together
+
+```python
+from flask import Flask, request, jsonify
+from flask_sqlalchemy import SQLAlchemy
+
+import os
+from os.path import join, dirname
+from dotenv import load_dotenv
+
+from models.shared import db
+from models.race import Race
+from models.unit import Unit
+from models.race_unit import RaceUnit
+
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = '%s://%s:%s@%s/%s' % (os.environ.get('DB_DRIVER'), os.environ.get('DB_USER'), os.environ.get('DB_PASSWORD'), os.environ.get('DB_HOST'), os.environ.get('DB_NAME'))
+
+db.app = app
+db.init_app(app)
+# Create tables if they don't already exist
+db.create_all()
+
+@app.route('/', methods=['GET'])
+def index():
+    return 'StarCraft: Python Expansion'
+
+@app.route('/races', methods=['GET'])
+def races():
+    races = [i.serialize for i in Race.query.all()]
+    return jsonify(races)
+
+@app.route('/races/<race_name>', methods=['GET'])
+def races_name(race_name):
+    race = Race.query.filter_by(name=race_name.capitalize()).first().serialize
+    return jsonify(race)
+
+@app.route('/races/<race_name>/units', methods=['GET'])
+def races_units(race_name):
+    race = Race.query.filter_by(name=race_name.capitalize()).first()
+    if race is None:
+        return jsonify({})
+
+    race_units = race.units
+    return jsonify([i.serialize for i in race_units])
+
+@app.route('/units', methods=['GET', 'POST'])
+def units():
+    if request.method == 'POST':
+        # @todo
+        return 'Save new unit'
+    else:
+        # Return all units
+        units = [i.serialize for i in Unit.query.all()]
+        return jsonify(units)
+
+@app.route('/units/<int:unit_id>', methods=['GET'])
+def units_id(unit_id):
+    unit = Unit.query.get(unit_id).serialize
+    return jsonify(unit)
+
+
+# If this file is being run directly, then start Flask
+if __name__ == '__main__':
+    app.run(debug=True)
 ```
