@@ -42,7 +42,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'StarCraft: Python Extension'
+    return 'StarCraft: Python Expansion'
 
 # If this file is being run directly, then start Flask
 if __name__ == '__main__':
@@ -243,15 +243,21 @@ Your directory structure should look similar to the following now:
 from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
+
+def dump_datetime(value):
+    """Deserialize datetime object into string form for JSON processing."""
+    if value is None:
+        return None
+    return [value.strftime("%Y-%m-%d"), value.strftime("%H:%M:%S")]
 ```
 
 ```python
 # models/race.py
-from models.shared import db
+from models.shared import db, dump_datetime
 import datetime
 
 class Race(db.Model):
-    __tablename__ = 'races'
+  __tablename__ = 'races'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), unique=True, nullable=False)
     description = db.Column(db.Text)
@@ -262,13 +268,23 @@ class Race(db.Model):
         self.name = name
         self.description = description
 
+    @property
+    def serialize(self):
+       """Return object data in easily serializable format"""
+       return {
+           'id'         : self.id,
+           'name'       : self.name,
+           'description': self.description,
+           'created_at' : dump_datetime(self.created_at)
+       }
+
     def __repr__(self):
         return '<Race %r>' % self.name
 ```
 
 ```python
 # models/unit.py
-from models.shared import db
+from models.shared import db, dump_datetime
 import datetime
 
 class Unit(db.Model):
@@ -291,6 +307,11 @@ class Unit(db.Model):
         self.supply_cost = supply_cost
         self.build_time = build_time
 
+    @property
+    def serialize(self):
+       """Return object data in easily serializable format"""
+
+
     def __repr__(self):
         return '<Unit %r>' % self.name
 ```
@@ -299,7 +320,7 @@ Note the foreign keys, which ensure that we don't have orphaned records from som
 
 ```python
 # models/race_unit
-from models.shared import db
+from models.shared import db, dump_datetime
 import datetime
 
 class RaceUnit(db.Model):
@@ -321,7 +342,7 @@ After adding SQL Alchemy and dotenv, the top of our `main.py` file will now look
 
 ```python
 # main.py
-from flask import Flask
+from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
 import os

@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, Response
+from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
 import os
@@ -8,9 +8,7 @@ from dotenv import load_dotenv
 from models.shared import db
 from models.race import Race
 from models.unit import Unit
-from models.race_unit import RaceUnit
-
-import json
+# from models.race_unit import RaceUnit
 
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
@@ -25,45 +23,40 @@ db.create_all()
 
 @app.route('/', methods=['GET'])
 def index():
-    return 'StarCraft: Python Extension'
+    return 'StarCraft: Python Expansion'
 
 @app.route('/races', methods=['GET'])
 def races():
-    # races = Race.query.all()
-    # print races
-
-    return jsonify(json_list=[race.serialize for race in Race.query.all()])
-    # return jsonify(json.dumps([race.serialize for race in Race.query.all()]))
-
-    # races_out = []
-    # for race in races:
-    #     print race
-    #     races_out.append(dict(race))
-
-    # resp = jsonify(json.dumps(races))
-    # print resp
-
-
-    # return Response(json.dumps(races_out), mimetype='application/json')
+    races = [i.serialize for i in Race.query.all()]
+    return jsonify(races)
 
 @app.route('/races/<race_name>', methods=['GET'])
 def races_name(race_name):
-    return 'Display details for %s' % race_name
+    race = Race.query.filter_by(name=race_name.capitalize()).first().serialize
+    return jsonify(race)
 
 @app.route('/races/<race_name>/units', methods=['GET'])
 def races_units(race_name):
-    return 'List all units for %s' % race_name
+    race = Race.query.filter_by(name=race_name.capitalize()).first()
+    if race is None:
+        return jsonify({})
+
+    race_units = race.units
+    return jsonify([i.serialize for i in race_units])
 
 @app.route('/units', methods=['GET', 'POST'])
 def units():
     if request.method == 'POST':
         return 'Save new unit'
     else:
-        return 'List all units'
+        # Return all units
+        units = [i.serialize for i in Unit.query.all()]
+        return jsonify(units)
 
 @app.route('/units/<int:unit_id>', methods=['GET'])
 def units_id(unit_id):
-    return 'Display details for unit ID: %i' % unit_id
+    unit = Unit.query.get(unit_id).serialize
+    return jsonify(unit)
 
 
 # If this file is being run directly, then start Flask
